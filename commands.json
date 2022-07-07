@@ -1,0 +1,3672 @@
+{
+    "add-money-role": {
+        "settings": {
+            "permissions": [
+                {
+                    "manage_guild": true
+                },
+                "Bot Commander"
+            ]
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Adds money to user's with specified role.",
+                "en-US": "Adds money to role with specified role.",
+                "fr": "Ajoute de l'argent aux utilisateurs avec le rôle spécifié.",
+                "ru": "Выдает деньги пользователям с указанной ролью."
+            },
+            "arguments": {
+                "role": {
+                    "description": {
+                        "en-GB": "The role that will get money.",
+                        "en-US": "The role that will get money.",
+                        "fr": "Un rôle dont les participants recevront de l'argent.",
+                        "ru": "Роль, пользователи которой получат деньги."
+                    }
+                },
+                "amount": {
+                    "description": {
+                        "en-GB": "How much money you wanna add.",
+                        "en-US": "How much money you wanna add.",
+                        "fr": "Le montant que vous voulez ajouter.",
+                        "ru": "Сколько денег вы хотите выдать."
+                    }
+                },
+                "place": {
+                    "description": {
+                        "en-GB": "The place where you wanna add money(cash or bank). By default - bank.",
+                        "en-US": "The place where you wanna add money(cash or bank). By default - bank.",
+                        "fr": "L'emplacement où vous voulez ajouter l'argent(cash ou bank). Par défaut - bank.",
+                        "ru": "Место, куда вы хотите выдать деньги(cash или bank). По умолчанию - bank."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "add-money": {
+        "settings": {
+            "permissions": [
+                {
+                    "manage_guild": true
+                },
+                "Bot Commander"
+            ]
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Adds money to user.",
+                "en-US": "Adds money to user.",
+                "fr": "Ajouter de l'argent à l'utilisateur.",
+                "ru": "Выдает деньги пользователю."
+            },
+            "arguments": {
+                "user": {
+                    "description": {
+                        "en-GB": "The user who will get money.",
+                        "en-US": "The user who will get money.",
+                        "fr": "L'utilisateur qui va recevoir l'argent.",
+                        "ru": "Пользователь, который получит деньги."
+                    }
+                },
+                "amount": {
+                    "description": {
+                        "en-GB": "How much money you wanna add.",
+                        "en-US": "How much money you wanna add.",
+                        "fr": "Le montant que tu veux ajouter.",
+                        "ru": "Сколько денег вы хотите выдать."
+                    }
+                },
+                "place": {
+                    "description": {
+                        "en-GB": "The place where you wanna add money(cash or bank). By default - bank.",
+                        "en-US": "The place where you wanna add money(cash or bank). By default - bank.",
+                        "fr": "L'emplacement où vous voulez ajouter l'argent (cash ou bank). Par défaut - bank.",
+                        "ru": "Место, куда вы хотите выдать деньги(cash или bank). По умолчанию - bank."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "create-item": {
+        "settings": {
+            "permissions": [
+                {
+                    "manage_guild": true
+                },
+                "Bot Commander"
+            ]
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Creates an item for the shop.",
+                "en-US": "Creates an item for the shop.",
+                "fr": "Créer un objet pour le magasin.",
+                "ru": "Создает предмет для магазина."
+            },
+            "arguments": {
+                "name": {
+                    "description": {
+                        "en-GB": "The name of a new item.",
+                        "en-US": "The name of a new item.",
+                        "fr": "Le nom de l'item",
+                        "ru": "Название нового предмета."
+                    }
+                },
+                "price": {
+                    "description": {
+                        "en-GB": "The price of an item.",
+                        "en-US": "The price of an item.",
+                        "fr": "Le prix de l'objet.",
+                        "ru": "Цена нового предмета."
+                    }
+                },
+                "required_balance": {
+                    "description": {
+                        "en-GB": "The balance that an user must have in order to buy an item.",
+                        "en-US": "The balance that an user must have in order to buy an item.",
+                        "fr": "L'argent (balance) que l'utilisateur a besoin pour acheter l'objet.",
+                        "ru": "Баланс, которым должен обладать пользователь для покупки предмета."
+                    }
+                },
+                "description": {
+                    "description": {
+                        "en-GB": "The description of an item.",
+                        "en-US": "The description of an item.",
+                        "fr": "La description d'un objet.",
+                        "ru": "Описание предмета."
+                    }
+                },
+                "required_role": {
+                    "description": {
+                        "en-GB": "The role that an user must have in order to buy an item.",
+                        "en-US": "The role that an user must have in order to buy an item.",
+                        "fr": "Le rôle dont l'utilisateur a besoin pour acheter l'objet.",
+                        "ru": "Роль, которой должен обладать пользователь для покупки предмета."
+                    }
+                },
+                "given_role": {
+                    "description": {
+                        "en-GB": "The role that will be given to an user after use.",
+                        "en-US": "The role that will be given to an user after use.",
+                        "fr": "Le rôle que l'utilisateur va recevoir après utilisation.",
+                        "ru": "Роль, которая выдается пользователю после использования."
+                    }
+                },
+                "removed_role": {
+                    "description": {
+                        "en-GB": "The role that will be removed from an user after use.",
+                        "en-US": "The role that will be removed from an user after use.",
+                        "fr": "Le rôle qui va être retiré de l'utilisateur après utilisation.",
+                        "ru": "Роль, которая будет убрана у пользователя после использования."
+                    }
+                },
+                "reply_message": {
+                    "description": {
+                        "en-GB": "The text that will be sended to an user after use.",
+                        "en-US": "The text that will be sended to an user after use.",
+                        "fr": "Le message que l'utilisateur va recevoir après utilisation.",
+                        "ru": "Текст, который будет отправлен пользователю после использования."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "delete-item": {
+        "settings": {
+            "permissions": [
+                {
+                    "manage_guild": true
+                },
+                "Bot Commander"
+            ]
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Deletes an item from the shop.",
+                "en-US": "Deletes an item from the shop.",
+                "fr": "Retirer un objet du magasin",
+                "ru": "Удаляет предмет из магазина."
+            },
+            "arguments": {
+                "item": {
+                    "description": {
+                        "en-GB": "The name of an item you wanna delete.",
+                        "en-US": "The name of an item you wanna delete.",
+                        "fr": "Le nom de l'objet que vous voulez retirer.",
+                        "ru": "Название предмета, который вы хотите удалить."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "deposit": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Deposits money to your bank.",
+                "en-US": "Deposits money to your bank.",
+                "fr": "Déposer de l'argent dans votre bank.",
+                "ru": "Вкладывает деньги в банк."
+            },
+            "arguments": {
+                "amount": {
+                    "description": {
+                        "en-GB": "Amount of money you wanna deposit. Leave it blank to deposit all.",
+                        "en-US": "Amount of money you wanna deposit. Leave it blank to deposit all.",
+                        "fr": "La quantité d'argent que vous voulez déposer. Laissé le vide pour déposer tout.",
+                        "ru": "Количество денег, которые вы хотите вложить в банк. Оставьте поле пустым, чтобы положить все."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "dice": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Game where you can get more money or lose.",
+                "en-US": "Game where you can get more money or lose.",
+                "fr": "Jeux où vous pouvez gagner et perdre de l'argent.",
+                "ru": "Игра, где вы можете получить деньги или потерять."
+            },
+            "arguments": {
+                "bet": {
+                    "description": {
+                        "en-GB": "How many money do you bet.",
+                        "en-US": "How many money do you bet.",
+                        "fr": "Combien d'argent vous voulez parier.",
+                        "ru": "Сколько денег вы ставите."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "economy-ignore": {
+        "settings": {
+            "add": [
+                {
+                    "manage_guild": true
+                },
+                "Bot Commander"
+            ],
+            "remove": [
+                {
+                    "manage_guild": true
+                },
+                "Bot Commander"
+            ],
+            "list": []
+        },
+        "replies": {
+            "description": ""
+        },
+        "subcommands": {
+            "add": {
+                "description": {
+                    "en-GB": "Adds objects to economy-ignore.",
+                    "en-US": "Adds objects to economy-ignore.",
+                    "fr": "Ajouter des objets à economy ignore.",
+                    "ru": "Добавляет объекты в economy-ignore."
+                },
+                "arguments": {
+                    "role": {
+                        "description": {
+                            "en-GB": "The role whose users won't gain money anymore.",
+                            "en-US": "The role whose users won't gain money anymore.",
+                            "fr": "Les utilisateurs de role whose ne gagneront plus d'argent.",
+                            "ru": "Роль, пользователи которой перестанут получать деньги."
+                        }
+                    },
+                    "channel": {
+                        "description": {
+                            "en-GB": "The channel where users won't gain money anymore.",
+                            "en-US": "The channel where users won't gain money anymore.",
+                            "fr": "Le canal où les utilisateurs ne gagneront plus d'argent.",
+                            "ru": "Чат, в котором пользователи перестанут получать деньги."
+                        }
+                    },
+                    "user": {
+                        "description": {
+                            "en-GB": "The user who won't gain money.",
+                            "en-US": "The user who won't gain money.",
+                            "fr": "L'utilisateur qui pourra plus gagner d'argent.",
+                            "ru": "Пользователь, который перестанет получать деньги."
+                        }
+                    }
+                }
+            },
+            "remove": {
+                "description": {
+                    "en-GB": "Removes objects from economy-ignore.",
+                    "en-US": "Removes objects from economy-ignore.",
+                    "fr": "Retirer des objets d'economy ignore",
+                    "ru": "Удаляет объекты из economy-ignore."
+                },
+                "arguments": {
+                    "role": {
+                        "description": {
+                            "en-GB": "The role whose users will be able again to gain money.",
+                            "en-US": "The role whose users will be able again to gain money.",
+                            "fr": "Les utilisateurs du rôle whose pourront à nouveau gagner de l'argent.",
+                            "ru": "Роль, пользователи которой снова смогут получать деньги."
+                        }
+                    },
+                    "channel": {
+                        "description": {
+                            "en-GB": "The channel where users will be able again to gain money.",
+                            "en-US": "The channel where users will be able again to gain money.",
+                            "fr": "Le canal où les utilisateurs pourront à nouveau gagner de l'argent.",
+                            "ru": "Канал, где пользователи снова смогут получать деньги."
+                        }
+                    },
+                    "user": {
+                        "description": {
+                            "en-GB": "The user who will be able again to gain money.",
+                            "en-US": "The user who will be able again to gain money.",
+                            "fr": "L'utilisateur qui pourra de nouveau gagner de l'argent.",
+                            "ru": "Пользователь, который снова сможет получать деньги."
+                        }
+                    }
+                }
+            },
+            "list": {
+                "description": {
+                    "en-GB": "Sends list of economy-ignore.",
+                    "en-US": "Sends list of economy-ignore.",
+                    "fr": "Envoyer la liste d'economy ignore.",
+                    "ru": "Отправляет список economy-ignore."
+                },
+                "arguments": {}
+            }
+        }
+    },
+    "economy-stats": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Sends stats for economy.",
+                "en-US": "Sends stats for economy.",
+                "fr": "Envoyer les statistiques d'economy",
+                "ru": "Отправляет статистику экономики."
+            },
+            "arguments": {}
+        },
+        "subcommands": {}
+    },
+    "edit-item": {
+        "settings": {
+            "permissions": [
+                {
+                    "manage_guild": true
+                },
+                "Bot Commander"
+            ]
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Edits an item in the shop.",
+                "en-US": "Edits an item in the shop.",
+                "fr": "Modifier un objet dans le magasin.",
+                "ru": "Изменяет предмет из магазина."
+            },
+            "arguments": {
+                "item": {
+                    "description": {
+                        "en-GB": "The name of an item you wanna edit.",
+                        "en-US": "The name of an item you wanna edit.",
+                        "fr": "Le nom de l'item que vous voulez modifier.",
+                        "ru": "Название предмета, который вы хотите изменить."
+                    }
+                },
+                "price": {
+                    "description": {
+                        "en-GB": "The price of an item.",
+                        "en-US": "The price of an item.",
+                        "fr": "Le prix de l'objet.",
+                        "ru": "Цена предмета."
+                    }
+                },
+                "required_balance": {
+                    "description": {
+                        "en-GB": "The balance that an user must have in order to buy an item.",
+                        "en-US": "The balance that an user must have in order to buy an item.",
+                        "fr": "L'argent(balance) dont l'utilisateur a besoin pour acheter l'objet.",
+                        "ru": "Баланс, которым должен обладать пользователь для покупки предмета."
+                    }
+                },
+                "description": {
+                    "description": {
+                        "en-GB": "The description of an item.",
+                        "en-US": "The description of an item.",
+                        "fr": "La description d'un objet.",
+                        "ru": "Описание предмета."
+                    }
+                },
+                "required_role": {
+                    "description": {
+                        "en-GB": "The role that an user must have in order to buy an item.",
+                        "en-US": "The role that an user must have in order to buy an item.",
+                        "fr": "Le rôle dont l'utilisateur a besoin pour acheter l'objet.",
+                        "ru": "Роль, которой пользователь должен обладать для покупки предмета."
+                    }
+                },
+                "given_role": {
+                    "description": {
+                        "en-GB": "The role that will be given to an user after use.",
+                        "en-US": "The role that will be given to an user after use.",
+                        "fr": "Le rôle que l'utilisateur va recevoir après utilisation.",
+                        "ru": "Роль, которая будет выдана пользователю после использования."
+                    }
+                },
+                "removed_role": {
+                    "description": {
+                        "en-GB": "The role that will be removed from an user after use.",
+                        "en-US": "The role that will be removed from an user after use.",
+                        "fr": "Le rôle qui va être retiré de l'utilisateur après utilisation.",
+                        "ru": "Роль, которая будет убрана у пользователя после использования."
+                    }
+                },
+                "reply_message": {
+                    "description": {
+                        "en-GB": "The text that will be sended to an user after use.",
+                        "en-US": "The text that will be sended to an user after use.",
+                        "fr": "Le message que l'utilisateur va recevoir après utilisation.",
+                        "ru": "Текст, который будет отправлен пользователю после использования."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "give-item": {
+        "settings": {
+            "permissions": [
+                {
+                    "manage_guild": true
+                },
+                "Bot Commander"
+            ]
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Gives an item to an user.",
+                "en-US": "Gives an item to an user.",
+                "fr": "Donner un objet à un utilisateur.",
+                "ru": "Выдает предмет пользователю."
+            },
+            "arguments": {
+                "user": {
+                    "description": {
+                        "en-GB": "The user who you wanna give the item to.",
+                        "en-US": "The user who you wanna give the item to.",
+                        "fr": "L'utilisateur que vous voulez donner l'item.",
+                        "ru": "Пользователь, которму вы хотите выдать предмет."
+                    }
+                },
+                "item": {
+                    "description": {
+                        "en-GB": "The name of an item you wanna give.",
+                        "en-US": "The name of an item you wanna give.",
+                        "fr": "Le nom de l'objet que vous voulez donner.",
+                        "ru": "Название предмета, который вы хотите выдать."
+                    }
+                },
+                "quantity": {
+                    "description": {
+                        "en-GB": "The quantity of an item.",
+                        "en-US": "The quantity of an item.",
+                        "fr": "La quantité d'objets.",
+                        "ru": "Количество предмета."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "inventory": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Shows user's inventory.",
+                "en-US": "Shows user's inventory.",
+                "fr": "Montrer l'inventaire de l'utilisateur.",
+                "ru": "Показывает инвентарь пользователя."
+            },
+            "arguments": {
+                "user": {
+                    "description": {
+                        "en-GB": "The user whose inventory you wanna see.",
+                        "en-US": "The user whose inventory you wanna see.",
+                        "fr": "L'utilisateur dont vous voulez voir l'inventaire.",
+                        "ru": "Пользователь, чей инвентарь вы хотите посмотреть."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "item-info": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "View the details for an item.",
+                "en-US": "View the details for an item.",
+                "fr": "Voir les détails d'un objet.",
+                "ru": "Показывает информацию о предмете."
+            },
+            "arguments": {
+                "item": {
+                    "description": {
+                        "en-GB": "The name of the item from what you wanna get information.",
+                        "en-US": "The name of the item from what you wanna get information.",
+                        "fr": "Le nom de l'objet que vous voulez avoir une information.",
+                        "ru": "Название предмета, информацию которого вы хотите получить."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "money-amount": {
+        "settings": {
+            "min": [
+                {
+                    "manage_guild": true
+                },
+                "Bot Commander"
+            ],
+            "max": [
+                {
+                    "manage_guild": true
+                },
+                "Bot Commander"
+            ]
+        },
+        "replies": {
+            "description": ""
+        },
+        "subcommands": {
+            "min": {
+                "description": {
+                    "en-GB": "Sets the minimum money earn amount.",
+                    "en-US": "Sets the minimum money earn amount.",
+                    "fr": "Mettre la quantité minimum d'argent récolté.",
+                    "ru": "Устанавливает минимальное зарабатываемое количество денег."
+                },
+                "arguments": {
+                    "amount": {
+                        "description": {
+                            "en-GB": "The amount of money.",
+                            "en-US": "The amount of money.",
+                            "fr": "La quantité d'argent.",
+                            "ru": "Количество денег."
+                        }
+                    }
+                }
+            },
+            "max": {
+                "description": {
+                    "en-GB": "Sets the maximum money earn amount.",
+                    "en-US": "Sets the maximum money earn amount.",
+                    "fr": "Mettre la quantité maximum d'argent récolté.",
+                    "ru": "Устанавливает максимальное зарабатываемое количество денег."
+                },
+                "arguments": {
+                    "amount": {
+                        "description": {
+                            "en-GB": "The amount of money.",
+                            "en-US": "The amount of money.",
+                            "fr": "La quantité d'argent.",
+                            "ru": "Количество денег."
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "money-command": {
+        "settings": {
+            "work": [],
+            "crime": [],
+            "treasurehunt": [],
+            "beg": [],
+            "fish": []
+        },
+        "replies": {
+            "description": ""
+        },
+        "subcommands": {
+            "work": {
+                "description": {
+                    "en-GB": "Command that gives you money.",
+                    "en-US": "Command that gives you money.",
+                    "fr": "Commande qui vous donnes de l'argent.",
+                    "ru": "Команда, которая дает вам деньги."
+                },
+                "arguments": {}
+            },
+            "crime": {
+                "description": {
+                    "en-GB": "Command that gives you money.",
+                    "en-US": "Command that gives you money.",
+                    "fr": "Command qui vous donnes de l'argent.",
+                    "ru": "Команда, которая дает вам деньги."
+                },
+                "arguments": {}
+            },
+            "treasurehunt": {
+                "description": {
+                    "en-GB": "Command that gives you money.",
+                    "en-US": "Command that gives you money.",
+                    "fr": "Command qui vous donnes de l'argent.",
+                    "ru": "Команда, которая дает вам деньги."
+                },
+                "arguments": {}
+            },
+            "beg": {
+                "description": {
+                    "en-GB": "Command that gives you money.",
+                    "en-US": "Command that gives you money.",
+                    "fr": "Command qui vous donnes de l'argent.",
+                    "ru": "Команда, которая дает вам деньги."
+                },
+                "arguments": {}
+            },
+            "fish": {
+                "description": {
+                    "en-GB": "Command that gives you money.",
+                    "en-US": "Command that gives you money.",
+                    "fr": "Command qui vous donnes de l'argent..",
+                    "ru": "Команда, которая дает вам деньги."
+                },
+                "arguments": {}
+            }
+        }
+    },
+    "pay": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Transfers your money to another user.",
+                "en-US": "Transfers your money to another user.",
+                "fr": "Transfère votre argent à un autre utilisateur.",
+                "ru": "Передает ваши деньги другому пользователю."
+            },
+            "arguments": {
+                "user": {
+                    "description": {
+                        "en-GB": "The user to whom you wanna transfer your money.",
+                        "en-US": "The user to whom you wanna transfer your money.",
+                        "fr": "L'utilisateur à qui vous souhaitez transfert votre argent.",
+                        "ru": "Пользователь, которому вы хотите выдать ваши деньги."
+                    }
+                },
+                "amount": {
+                    "description": {
+                        "en-GB": "Amount of money you wanna transfer. Leave it blank to give all.",
+                        "en-US": "Amount of money you wanna transfer. Leave it blank to give all.",
+                        "fr": "La quantité d'argent que vous voulez lui transfert. Laisser vide pour donner tout.",
+                        "ru": "Количество денег, которое вы хотите передать. Оставьте поле пустым, чтобы передать все."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "remove-money-role": {
+        "settings": {
+            "permissions": [
+                {
+                    "manage_guild": true
+                },
+                "Bot Commander"
+            ]
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Removes money from an user.",
+                "en-US": "Removes money from an user.",
+                "fr": "Retirer de l'argent a l'utilisateur.",
+                "ru": "Забирает деньги пользователя."
+            },
+            "arguments": {
+                "role": {
+                    "description": {
+                        "en-GB": "The role whose members will lose money.",
+                        "en-US": "The role whose members will lose money.",
+                        "fr": "Les membres de whose perdront de l'argent.",
+                        "ru": "Роль, пользователи которой потеряют деньги."
+                    }
+                },
+                "amount": {
+                    "description": {
+                        "en-GB": "How much money you wanna remove.",
+                        "en-US": "How much money you wanna remove.",
+                        "fr": "Le montant que vous voulez retirer.",
+                        "ru": "Количество денег, которе вы хотите забрать."
+                    }
+                },
+                "place": {
+                    "description": {
+                        "en-GB": "The place from where you wanna remove money(cash or bank). By default - bank.",
+                        "en-US": "The place from where you wanna remove money(cash or bank). By default - bank.",
+                        "fr": "L'emplacement où vous voulez supprimer l'argent (cash ou bank). Par défaut - bank.",
+                        "ru": "Место, откуда вы хотите забрать деньги(cash или bank). По умолчанию - bank."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "remove-money": {
+        "settings": {
+            "permissions": [
+                {
+                    "manage_guild": true
+                },
+                "Bot Commander"
+            ]
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Removes money from an user.",
+                "en-US": "Removes money from an user.",
+                "fr": "Retirer de l'argent a l'utilisateur.",
+                "ru": "Забирает деньги у пользователя."
+            },
+            "arguments": {
+                "user": {
+                    "description": {
+                        "en-GB": "The user who will lose money.",
+                        "en-US": "The user who will lose money.",
+                        "fr": "L'utilisateur qui va perdre l'argent.",
+                        "ru": "Пользователь, который потеряет деньги."
+                    }
+                },
+                "amount": {
+                    "description": {
+                        "en-GB": "How much money you wanna remove.",
+                        "en-US": "How much money you wanna remove.",
+                        "fr": "Combien d'argent vous voulez retirer.",
+                        "ru": "Сколько денег вы хотите забрать."
+                    }
+                },
+                "place": {
+                    "description": {
+                        "en-GB": "The place from where you wanna remove money(cash or bank). By default - bank.",
+                        "en-US": "The place from where you wanna remove money(cash or bank). By default - bank.",
+                        "fr": "L'emplacement où vous voulez supprimer l'argent (cash ou bank). Par défaut - bank.",
+                        "ru": "Место, откуда вы хотите забрать деньги(cash или bank). По умолчанию - bank."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "reset-economy": {
+        "settings": {
+            "permissions": [
+                {
+                    "manage_guild": true
+                },
+                "Bot Commander"
+            ]
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Resets everyone's money.",
+                "en-US": "Resets everyone's money.",
+                "fr": "Réinitialiser l'argent de tout le mond.",
+                "ru": "Сбрасывает деньги всех пользователей."
+            },
+            "arguments": {}
+        },
+        "subcommands": {}
+    },
+    "reset-inventories": {
+        "settings": {
+            "permissions": [
+                {
+                    "manage_guild": true
+                },
+                "Bot Commander"
+            ]
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Resets everyone's inventory.",
+                "en-US": "Resets everyone's inventory.",
+                "fr": "Réinitialiser l'inventaire de tout le monde.",
+                "ru": "Сбрасывает инвентари всех пользователей."
+            },
+            "arguments": {}
+        },
+        "subcommands": {}
+    },
+    "reset-inventory": {
+        "settings": {
+            "permissions": [
+                {
+                    "manage_guild": true
+                },
+                "Bot Commander"
+            ]
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Resets user's inventory.",
+                "en-US": "Resets user's inventory.",
+                "fr": "Réinitialise l'inventaire de l'utilisateur.",
+                "ru": "Сбрасывает чей-то инвентарь."
+            },
+            "arguments": {
+                "user": {
+                    "description": {
+                        "en-GB": "The user whose inventory you wanna reset. Leave it blank to reset yours.",
+                        "en-US": "The user whose inventory you wanna reset. Leave it blank to reset yours.",
+                        "fr": "L'utilisateur dont vous voulez reset l'inventaire. Laisser vide pour réinitialiser le vôtre.",
+                        "ru": "Пользователь, чей инвентарь вы хотите сбросить. Оставьте поле пустым, чтобы сбросить свой."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "reset-money": {
+        "settings": {
+            "permissions": [
+                {
+                    "manage_guild": true
+                },
+                "Bot Commander"
+            ]
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Resets user's money.",
+                "en-US": "Resets user's money.",
+                "fr": "Réinitialise l'argent de l'utilisateur.",
+                "ru": "Сбрасывает деньги пользователя."
+            },
+            "arguments": {
+                "user": {
+                    "description": {
+                        "en-GB": "The user whose money you wanna reset. Leave it blank to reset yours.",
+                        "en-US": "The user whose money you wanna reset. Leave it blank to reset yours.",
+                        "fr": "L'utilisateur dont vous allez réinitialiser l'argent. Laisser vide pour réinitialiser le vôtre.",
+                        "ru": "Пользователь, чьи деньги вы хотите сбросить. Оставьте поле пустым, чтобы сбросить свои."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "rob": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Robs another user with a chance.",
+                "en-US": "Robs another user with a chance.",
+                "fr": "Vole un autre utilisateur avec une chance.",
+                "ru": "Грабит другого пользователя с шансом."
+            },
+            "arguments": {
+                "user": {
+                    "description": {
+                        "en-GB": "user who you wanna rob.",
+                        "en-US": "User you wanna rob.",
+                        "fr": "L'utilisateur que vous voulez voler",
+                        "ru": "Пользователь, которого вы хотите ограбить."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "sell": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Sells item for 60% of item value.",
+                "en-US": "Sells item for 60% of item value.",
+                "fr": "Vendre un objet pour 60% sa valeur.",
+                "ru": "Продает предмет за 60% от цены этого предмета."
+            },
+            "arguments": {
+                "item": {
+                    "description": {
+                        "en-GB": "A name of the item you wanna sell.",
+                        "en-US": "A name of the item you wanna sell.",
+                        "fr": "Le nom de l'objet que vous voulez vendre.",
+                        "ru": "Название предмета, который вы хотите продать."
+                    }
+                },
+                "quantity": {
+                    "description": {
+                        "en-GB": "Quantity of item you wanna sell.",
+                        "en-US": "Quantity of item you wanna sell.",
+                        "fr": "La quantité d'objets que vous voulez vendre.",
+                        "ru": "Количество предмета, которое вы хотите продать."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "set-currency": {
+        "settings": {
+            "permissions": [
+                {
+                    "manage_guild": true
+                },
+                "Bot Commander"
+            ]
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Sets server's currency.",
+                "en-US": "Sets server's currency.",
+                "fr": "Mettre la devise du serveur.",
+                "ru": "Устанавливает валюту сервера."
+            },
+            "arguments": {
+                "emoji": {
+                    "description": {
+                        "en-GB": "The currency emoji(id, name or emoji) or symbol. Leave it blank if you wanna set as default.",
+                        "en-US": "The currency emoji(id, name or emoji) or symbol. Leave it blank if you wanna set as default.",
+                        "fr": "La devise émoji(id, nom ou émoji) ou symbole. Laisser vide pour mettre comme défaut.",
+                        "ru": "Эмодзи валюты(id, name or emoji) или же символ. Оставьте поле пустым для установки по умолчанию."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "set-start-balance": {
+        "settings": {
+            "permissions": [
+                {
+                    "manage_guild": true
+                },
+                "Bot Commander"
+            ]
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Sets start balance for new users.",
+                "en-US": "Sets start balance for new users.",
+                "fr": "Mettre l'argent de départ des utilisateurs.",
+                "ru": "Устанавливает изначальный баланс для новых пользователей."
+            },
+            "arguments": {
+                "amount": {
+                    "description": {
+                        "en-GB": "The amount of money that will be given to new users.",
+                        "en-US": "The amount of money that will be given to new users.",
+                        "fr": "La quantité d'argent que les nouveaux utilisateurs vont recevoir.",
+                        "ru": "Количество денег, которое будет выдано новым пользователям."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "shop": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Shows the shop for the current server.",
+                "en-US": "Shows the shop for the current server.",
+                "fr": "Montrer le magasin du serveur.",
+                "ru": "Показывает магазин для текущего сервера."
+            },
+            "arguments": {}
+        },
+        "subcommands": {}
+    },
+    "take-item": {
+        "settings": {
+            "permissions": [
+                {
+                    "manage_guild": true
+                },
+                "Bot Commander"
+            ]
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Takes an item from an user.",
+                "en-US": "Takes an item from an user.",
+                "fr": "Prendre un objet d'un utilisateur.",
+                "ru": "Забирает предмет у пользователя."
+            },
+            "arguments": {
+                "user": {
+                    "description": {
+                        "en-GB": "The user whose items you wanna remove.",
+                        "en-US": "The user whose items you wanna remove.",
+                        "fr": "L'utilisateur dont vous voulez retirer l'objet.",
+                        "ru": "Пользователь, чьи предметы вы хотите забрать."
+                    }
+                },
+                "item": {
+                    "description": {
+                        "en-GB": "The name of an item you wanna remove.",
+                        "en-US": "The name of an item you wanna remove.",
+                        "fr": "Le nom de l'objet que vous voulez retirer.",
+                        "ru": "Название предмета, который вы хотите забрать."
+                    }
+                },
+                "quantity": {
+                    "description": {
+                        "en-GB": "The quantity of an item you wanna remove.",
+                        "en-US": "The quantity of an item you wanna remove.",
+                        "fr": "La quantité d'objets que vous voulez retirer.",
+                        "ru": "Количество предмета, которое вы хотите забрать."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "withdraw": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Withdraws money from your bank.",
+                "en-US": "Withdraws money from your bank.",
+                "fr": "Retirer de l'argent de votre bank.",
+                "ru": "Выводит на счет деньги из вашего банка."
+            },
+            "arguments": {
+                "amount": {
+                    "description": {
+                        "en-GB": "Amount of money you wanna withdraw. Leave it blank to withdraw all.",
+                        "en-US": "Amount of money you wanna withdraw. Leave it blank to withdraw all.",
+                        "fr": "La quantité d'argent que vous voulez retirer. Laisser vide pour retirer tout.",
+                        "ru": "Количество денег для вывода. Оставьте поле пустым, чтобы вывести все."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "8ball": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Magic ball.",
+                "en-US": "Magic ball.",
+                "fr": "Balle magique.",
+                "ru": "Волшебный шар."
+            },
+            "arguments": {
+                "question": {
+                    "description": {
+                        "en-GB": "The question you wanna ask.",
+                        "en-US": "The question you wanna ask.",
+                        "fr": "La question que vous voulez poser.",
+                        "ru": "Вопрос, который вы хотите задать."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "cat": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Sends cat's picture.",
+                "en-US": "Sends cat's picture.",
+                "fr": "Envoyer une photo de chat.",
+                "ru": "Отправляет картинку кота."
+            },
+            "arguments": {}
+        },
+        "subcommands": {}
+    },
+    "dadjoke": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Sends dadjoke.",
+                "en-US": "Sends dadjoke.",
+                "fr": "Envoyer une blague de papa.",
+                "ru": "Отправляет шутку отца."
+            },
+            "arguments": {}
+        },
+        "subcommands": {}
+    },
+    "dog": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Sends dog's picture.",
+                "en-US": "Sends dog's picture.",
+                "fr": "Envoyer une photo d'un chien.",
+                "ru": "Отправляет картинку собаки."
+            },
+            "arguments": {}
+        },
+        "subcommands": {}
+    },
+    "flipcoin": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Flips coin.",
+                "en-US": "Flips coin.",
+                "fr": "Pile ou face.",
+                "ru": "Подбрасывает монетку."
+            },
+            "arguments": {}
+        },
+        "subcommands": {}
+    },
+    "howgay": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Detects howgay is user.",
+                "en-US": "Detects howgay is user.",
+                "fr": "Détecter comment est gay l'utilisateur.",
+                "ru": "Определяет насколько пользователь гей."
+            },
+            "arguments": {
+                "user": {
+                    "description": {
+                        "en-GB": "The user whose gay percent you wanna know. Leave it blank to get yours.",
+                        "en-US": "The user whose gay percent you wanna know. Leave it blank to get yours.",
+                        "fr": "L'utilisateur que vous voulez détecter. Laissez-le vide pour obtenir le vôtre.",
+                        "ru": "Пользователь, чей процент вы хотите знать. Оставьте поле пустым для получения своего."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "kill": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Fun command for killing user.",
+                "en-US": "Fun command for killing user.",
+                "fr": "Commande pour le fun.",
+                "ru": "Развлекательная команда для убийства пользователей."
+            },
+            "arguments": {
+                "user": {
+                    "description": {
+                        "en-GB": "The user who you wanna kill.",
+                        "en-US": "The user who you wanna kill.",
+                        "fr": "L'utilisateur que vous voulez tuer.",
+                        "ru": "Пользователь, которого вы хотите убить."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "meme": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Sends random meme.",
+                "en-US": "Sends random meme.",
+                "fr": "Envoyer un même aléatoire.",
+                "ru": "Отправляет рандомный мем."
+            },
+            "arguments": {}
+        },
+        "subcommands": {}
+    },
+    "minesweeper": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Minesweeper game.",
+                "en-US": "Minesweeper game.",
+                "fr": "Le démineur.",
+                "ru": "Игра Сапёр."
+            },
+            "arguments": {}
+        },
+        "subcommands": {}
+    },
+    "rps": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Rock paper scissors game.",
+                "en-US": "Rock paper scissors game.",
+                "fr": "Pierre papier ciseau.",
+                "ru": "Игра Камень, ножницы, бумага."
+            },
+            "arguments": {
+                "user": {
+                    "description": {
+                        "en-GB": "The user with whom you wanna play.",
+                        "en-US": "The user with whom you wanna play.",
+                        "fr": "L'utilisateur avec qui vous voulez jouer.",
+                        "ru": "Пользователь, с которым вы хотите сыграть."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "tic-tac-toe": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Tic tac toe game.",
+                "en-US": "Tic tac toe game.",
+                "fr": "morpion.",
+                "ru": "Игра Крестики Нолики"
+            },
+            "arguments": {
+                "user": {
+                    "description": {
+                        "en-GB": "The user with whom you wanna play.",
+                        "en-US": "The user with whom you wanna play.",
+                        "fr": "L'utilisateur avec qui vous voulez jouer.",
+                        "ru": "Пользователь, с которым вы хотите сыграть."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "avatar": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Sends user's avatar.",
+                "en-US": "Sends user's avatar.",
+                "fr": "Envoyer l'avatar de l'utilisateur.",
+                "ru": "Отправляет аватар пользователя."
+            },
+            "arguments": {
+                "user": {
+                    "description": {
+                        "en-GB": "The user whose avatar you wanna get. Leave it blank to get yours.",
+                        "en-US": "The user whose avatar you wanna get. Leave it blank to get yours.",
+                        "fr": "L'avatar de l'utilisateur que vous voulez avoir. Laissez-le vide pour voir le vôtre.",
+                        "ru": "Пользователь, чей аватар вы хочите получить. Оставьте поле пустым, чтобы получить свой."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "channel-info": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Sends channel information.",
+                "en-US": "Sends channel information.",
+                "fr": "envoyer les informations sur le canal.",
+                "ru": "Отправляет информацию о канале."
+            },
+            "arguments": {
+                "channel": {
+                    "description": {
+                        "en-GB": "The channel whose information you wanna get. Leave it blank to get current's.",
+                        "en-US": "The channel whose information you wanna get. Leave it blank to get current's.",
+                        "fr": "Le canal auquel vous voulez avoir les informations. Rien mettre pour sélectionner celui-ci.",
+                        "ru": "Канал, чью информацию вы хотите получить. Оставьте поле пустым, чтобы получить текущую"
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "help": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Sends a list of commands/command information.",
+                "en-US": "Sends a list of commands/command information.",
+                "fr": "Envoyer la liste de commandes/informations de commande.",
+                "ru": "Отправляет список команд/информацию о команде."
+            },
+            "arguments": {
+                "cmd": {
+                    "description": {
+                        "en-GB": "The name of a command you wanna see.",
+                        "en-US": "The name of a command you wanna see.",
+                        "fr": "Nom de la commande que vous voulez voir.",
+                        "ru": "Название команды, которую вы хотите посмотреть."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "invite": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Sends an invite to add Neutron.",
+                "en-US": "Sends an invite to add Neutron.",
+                "fr": "Envoyer une invitation pour inviter Neutron.",
+                "ru": "Отправляет приглашение для добавления Neutron."
+            },
+            "arguments": {}
+        },
+        "subcommands": {}
+    },
+    "role-info": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Sends role information.",
+                "en-US": "Sends role information.",
+                "fr": "Envoyer les informations d'un rôle.",
+                "ru": "Отправляет информацию о роли."
+            },
+            "arguments": {
+                "role": {
+                    "description": {
+                        "en-GB": "The role whose information you wanna get.",
+                        "en-US": "The role whose information you wanna get.",
+                        "fr": "Le rôle auquel vous voulez savoir les informations.",
+                        "ru": "Роль, информацию которой вы хотите посмотреть."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "server-info": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Sends server's information.",
+                "en-US": "Sends server's information.",
+                "fr": "Les informations du serveur.",
+                "ru": "Отправляет информацию о сервере."
+            },
+            "arguments": {}
+        },
+        "subcommands": {}
+    },
+    "stats": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Sends Neutron's stats.",
+                "en-US": "Sends Neutron's stats.",
+                "fr": "Envoyer les statistiques de Neutron.",
+                "ru": "Отправляет статистику Neutron."
+            },
+            "arguments": {}
+        },
+        "subcommands": {}
+    },
+    "user-info": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Sends user information.",
+                "en-US": "Sends user information.",
+                "fr": "Envoyer les informations de l'utilisateur.",
+                "ru": "Отправляет информацию о пользователе."
+            },
+            "arguments": {
+                "user": {
+                    "description": {
+                        "en-GB": "The user whose information you wanna get.",
+                        "en-US": "The user whose information you wanna get.",
+                        "fr": "L'utilisateur auquel vous voulez savoir les informations.",
+                        "ru": "Пользователь, информация которого вы хотите получить."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "vote": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Sends links to vote for Neutron.",
+                "en-US": "Sends links to vote for Neutron.",
+                "fr": "Envoyer un lien pour voter pour Neutron.",
+                "ru": "Отправляет ссылки для голосования за Neutron."
+            },
+            "arguments": {}
+        },
+        "subcommands": {}
+    },
+    "exp-amount": {
+        "settings": {
+            "min": [
+                {
+                    "manage_guild": true
+                },
+                "Bot Commander"
+            ],
+            "max": [
+                {
+                    "manage_guild": true
+                },
+                "Bot Commander"
+            ]
+        },
+        "replies": {
+            "description": ""
+        },
+        "subcommands": {
+            "min": {
+                "description": {
+                    "en-GB": "Sets the minimum exp earn amount.",
+                    "en-US": "Sets the minimum exp earn amount.",
+                    "fr": "Mettre le minimum d'expérience gagner.",
+                    "ru": "Устанавливает минимальное зарабатываемое количество опыта."
+                },
+                "arguments": {
+                    "amount": {
+                        "description": {
+                            "en-GB": "The amount of exp.",
+                            "en-US": "The amount of exp.",
+                            "fr": "La quantité d'expérience.",
+                            "ru": "Количество опыта."
+                        }
+                    }
+                }
+            },
+            "max": {
+                "description": {
+                    "en-GB": "Sets the maximum exp earn amount.",
+                    "en-US": "Sets the maximum exp earn amount.",
+                    "fr": "Mettre le maximum d'expérience gagner.",
+                    "ru": "Устанавливает максимальное зарабатываемое количество опыта."
+                },
+                "arguments": {
+                    "amount": {
+                        "description": {
+                            "en-GB": "The amount of exp.",
+                            "en-US": "The amount of exp.",
+                            "fr": "La quantité d'expérience.",
+                            "ru": "Количество опыта."
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "leaderboard": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Shows the leaderboard for the server.",
+                "en-US": "Shows the leaderboard for the server.",
+                "fr": "Montrez le classement du serveur.",
+                "ru": "Показывает таблицу лидеров для сервера."
+            },
+            "arguments": {}
+        },
+        "subcommands": {}
+    },
+    "level-boost-roles": {
+        "settings": {
+            "add": [
+                {
+                    "manage_guild": true
+                },
+                "Bot Commander"
+            ],
+            "remove": [
+                {
+                    "manage_guild": true
+                },
+                "Bot Commander"
+            ],
+            "list": []
+        },
+        "replies": {
+            "description": ""
+        },
+        "subcommands": {
+            "add": {
+                "description": {
+                    "en-GB": "Adds role to level-boost-roles.",
+                    "en-US": "Adds role to level-boost-roles.",
+                    "fr": "Ajouter rôle à level-boost-roles.",
+                    "ru": "Добавляет роль в level-boost-roles."
+                },
+                "arguments": {
+                    "role": {
+                        "description": {
+                            "en-GB": "The role that will give a boost.",
+                            "en-US": "The role that will give a boost.",
+                            "fr": "Le rôle qui donnera un boost de pouce.",
+                            "ru": "Роль, которая будет давать буст."
+                        }
+                    },
+                    "boost": {
+                        "description": {
+                            "en-GB": "A boost that the role will give.",
+                            "en-US": "A boost that the role will give.",
+                            "fr": "Un boost de pouce que le rôle donnera.",
+                            "ru": "Буст, который будет давать роль."
+                        }
+                    }
+                }
+            },
+            "remove": {
+                "description": {
+                    "en-GB": "Removes role from level-boost-roles.",
+                    "en-US": "Removes role from level-boost-roles.",
+                    "fr": "Retirer un rôle de level-boost-roles.",
+                    "ru": "Убирает роль из level-boost-roles."
+                },
+                "arguments": {
+                    "role": {
+                        "description": {
+                            "en-GB": "The role that won't earn bonus exp anymore.",
+                            "en-US": "The role that won't earn bonus exp anymore.",
+                            "fr": "Le rôle qui ne gagne plus d'expérience bonus.",
+                            "ru": "Роль, которая перестанет получать бонусный опыт."
+                        }
+                    }
+                }
+            },
+            "list": {
+                "description": {
+                    "en-GB": "Sends list of level-boost-roles.",
+                    "en-US": "Sends list of level-boost-roles.",
+                    "fr": "Envoyer la liste de level-boost-roles.",
+                    "ru": "Отправляет список level-boost-roles."
+                },
+                "arguments": {}
+            }
+        }
+    },
+    "level-ignore": {
+        "settings": {
+            "add": [
+                {
+                    "manage_guild": true
+                },
+                "Bot Commander"
+            ],
+            "remove": [
+                {
+                    "manage_guild": true
+                },
+                "Bot Commander"
+            ],
+            "list": []
+        },
+        "replies": {
+            "description": ""
+        },
+        "subcommands": {
+            "add": {
+                "description": {
+                    "en-GB": "Adds objects to level-ignore.",
+                    "en-US": "Adds objects to level-ignore.",
+                    "fr": "Ajouter des objets dans level ignore.",
+                    "ru": "Добавляет объекты в level-ignore."
+                },
+                "arguments": {
+                    "role": {
+                        "description": {
+                            "en-GB": "The role whose users won't gain exp anymore.",
+                            "en-US": "The role whose users won't gain exp anymore.",
+                            "fr": "Le rôle dont les utilisateurs ne gagneront plus d'expérience.",
+                            "ru": "Роль, пользователи которой перестанут получать опыт."
+                        }
+                    },
+                    "channel": {
+                        "description": {
+                            "en-GB": "The channel where users won't gain exp anymore.",
+                            "en-US": "The channel where users won't gain exp anymore.",
+                            "fr": "Le canal où les utilisateurs ne gagneront plus d'expérience.",
+                            "ru": "Канал, в котором пользователи перестанут получать опыт."
+                        }
+                    },
+                    "user": {
+                        "description": {
+                            "en-GB": "The user who won't gain exp anymore.",
+                            "en-US": "The user who won't gain exp anymore.",
+                            "fr": "L'utilisateur qui ne gagnera plus d'expérience.",
+                            "ru": "Пользователь, который перестанет получать опыт."
+                        }
+                    }
+                }
+            },
+            "remove": {
+                "description": {
+                    "en-GB": "Removes objects from level-ignore.",
+                    "en-US": "Removes objects from level-ignore.",
+                    "fr": "Retirer des objets de level ignore.",
+                    "ru": "Убирает объекты из level-ignore."
+                },
+                "arguments": {
+                    "role": {
+                        "description": {
+                            "en-GB": "The role whose users will be able again to gain exp.",
+                            "en-US": "The role whose users will be able again to gain exp.",
+                            "fr": "Le rôle dont les utilisateurs pourront à nouveau gagner de l'expérience.",
+                            "ru": "Роль, пользователи которой снова смогут получать опыт."
+                        }
+                    },
+                    "channel": {
+                        "description": {
+                            "en-GB": "The channel where users will be able again to gain exp.",
+                            "en-US": "The channel where users will be able again to gain exp.",
+                            "fr": "Le canal où les utilisateurs pourront à nouveau gagner de l'expérience.",
+                            "ru": "Канал, в котором пользователи снова смогут получать опыт."
+                        }
+                    },
+                    "user": {
+                        "description": {
+                            "en-GB": "The user who will be able again to gain exp.",
+                            "en-US": "The user who will be able again to gain exp.",
+                            "fr": "L'utilisateur qui gagnera de l'expérience.",
+                            "ru": "Пользователь, который снова сможет получать опыт."
+                        }
+                    }
+                }
+            },
+            "list": {
+                "description": {
+                    "en-GB": "Sends list of level-ignore.",
+                    "en-US": "Sends list of level-ignore.",
+                    "fr": "Envoyer la liste de level ignore.",
+                    "ru": "Отправляет список level-ignore."
+                },
+                "arguments": {}
+            }
+        }
+    },
+    "level-message": {
+        "settings": {
+            "enable": [
+                {
+                    "manage_guild": true
+                },
+                "Bot Commander"
+            ],
+            "disable": [
+                {
+                    "manage_guild": true
+                },
+                "Bot Commander"
+            ]
+        },
+        "replies": {
+            "description": ""
+        },
+        "subcommands": {
+            "enable": {
+                "description": {
+                    "en-GB": "Enables level-message in a specific channel.",
+                    "en-US": "Enables level-message in a specific channel.",
+                    "fr": "Activer level-message dans un canal spécific.",
+                    "ru": "Включает level-message в указанном канале."
+                },
+                "arguments": {
+                    "message": {
+                        "description": {
+                            "en-GB": "The message that will be sent when an user level-ups.",
+                            "en-US": "The message that will be sent when an user level-ups.",
+                            "fr": "Le message que l'utilisateur va recevoir quand il passe un niveau. ",
+                            "ru": "Сообщение, которое будет отправляться, когда пользователь повышает уровень."
+                        }
+                    },
+                    "channel": {
+                        "description": {
+                            "en-GB": "The channel where a level-up message will be sent. Leave it blank to send in dm.",
+                            "en-US": "The channel where a level-up message will be sent. Leave it blank to send in dm.",
+                            "fr": "Le canal ou le message de passage de niveau va être envoyé. Laissez-le vide pour envoyer en dm.",
+                            "ru": "Канал, где будет отправлятся сообщение о повышении уровня. Оставьте поле пустым для отправки в лс."
+                        }
+                    }
+                }
+            },
+            "disable": {
+                "description": {
+                    "en-GB": "Disables level-message.",
+                    "en-US": "Disables level-message.",
+                    "fr": "Désactiver les messages de niveau.",
+                    "ru": "Выключает level-message."
+                },
+                "arguments": {}
+            }
+        }
+    },
+    "level-roles": {
+        "settings": {
+            "add": [
+                {
+                    "manage_guild": true
+                },
+                "Bot Commander"
+            ],
+            "remove": [
+                {
+                    "manage_guild": true
+                },
+                "Bot Commander"
+            ],
+            "list": []
+        },
+        "replies": {
+            "description": ""
+        },
+        "subcommands": {
+            "add": {
+                "description": {
+                    "en-GB": "Adds role to level-roles.",
+                    "en-US": "Adds role to level-roles.",
+                    "fr": "Ajouter des rôles à level-rôle.",
+                    "ru": "Добавляет роль в level-roles."
+                },
+                "arguments": {
+                    "role": {
+                        "description": {
+                            "en-GB": "The role that an user will receive after reaching a certain level.",
+                            "en-US": "The role that an user will receive after reaching a certain level.",
+                            "fr": "Le rôle qu'un utilisateur obtiendra après avoir atteint un certain niveau.",
+                            "ru": "Роль, которую будет получать пользователь после достижения определенного уровня."
+                        }
+                    },
+                    "level": {
+                        "description": {
+                            "en-GB": "The level that required to receive the role.",
+                            "en-US": "The level that required to receive the role.",
+                            "fr": "Le niveau requis pour avoir le rôle.",
+                            "ru": "Уровень, необходимый для получения роли."
+                        }
+                    }
+                }
+            },
+            "remove": {
+                "description": {
+                    "en-GB": "Removes role from level-roles.",
+                    "en-US": "Removes role from level-roles.",
+                    "fr": "Retirer un rôle de level-rôles.",
+                    "ru": "Удаляет роль из level-roles."
+                },
+                "arguments": {
+                    "role": {
+                        "description": {
+                            "en-GB": "The role that the user will no longer receive after reaching a certain level.",
+                            "en-US": "The role that the user will no longer receive after reaching a certain level.",
+                            "fr": "Le rôle que l'utilisateur ne recevra plus après avoir atteint un certain niveau.",
+                            "ru": "Роль, которую пользователь перестанет получать после достижения определенного уровня."
+                        }
+                    }
+                }
+            },
+            "list": {
+                "description": {
+                    "en-GB": "Sends list of level-roles.",
+                    "en-US": "Sends list of level-roles.",
+                    "fr": "Envoyer la liste de level-rôles.",
+                    "ru": "Отправляет список level-roles."
+                },
+                "arguments": {}
+            }
+        }
+    },
+    "profile": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Shows user's level, balance and ranks.",
+                "en-US": "Shows user's level, balance and ranks.",
+                "fr": "Voir le niveau de l'utilisateur et l'argent et le rangement.",
+                "ru": "Показывает уровень пользователя, баланс и ранги ."
+            },
+            "arguments": {
+                "user": {
+                    "description": {
+                        "en-GB": "The user whose profile you wanna see. Leave it blank to see yours.",
+                        "en-US": "The user whose profile you wanna see. Leave it blank to see yours.",
+                        "fr": "L'utilisateur auquel vous voulez voir le profil. Laissez-le vide pour voir le vôtre.",
+                        "ru": "Пользователь, чей профиль вы хотите увидеть. Оставьте поле пустым, чтобы посмотреть свой"
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "reset-levels": {
+        "settings": {
+            "permissions": [
+                {
+                    "manage_guild": true
+                },
+                "Bot Commander"
+            ]
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Resets level system.",
+                "en-US": "Resets level system.",
+                "fr": "Renitialiser le system de niveau.",
+                "ru": "Выключает систему уровней."
+            },
+            "arguments": {}
+        },
+        "subcommands": {}
+    },
+    "set-level": {
+        "settings": {
+            "permissions": [
+                {
+                    "manage_guild": true
+                },
+                "Bot Commander"
+            ]
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Sets level for an user.",
+                "en-US": "Sets level for an user.",
+                "fr": "Mettre le niveau de l'utilisateur.",
+                "ru": "Устанавливает уровень пользователю."
+            },
+            "arguments": {
+                "user": {
+                    "description": {
+                        "en-GB": "The user whose level you wanna set.",
+                        "en-US": "The user whose level you wanna set.",
+                        "fr": "L'utilisateur auquel vous voulez changer le niveau.",
+                        "ru": "Участник, чей уровень вы хотите установить."
+                    }
+                },
+                "level": {
+                    "description": {
+                        "en-GB": "The level which you wanna set.",
+                        "en-US": "The level which you wanna set.",
+                        "fr": "Le niveau que vous voulez mettre.",
+                        "ru": "Уровень, который вы хотите установить."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "auto-mod-invites": {
+        "settings": {
+            "delete": [
+                {
+                    "manage_guild": true
+                },
+                "Moderator"
+            ],
+            "warn": [
+                {
+                    "manage_guild": true
+                },
+                "Moderator"
+            ],
+            "mute": [
+                {
+                    "manage_guild": true
+                },
+                "Moderator"
+            ],
+            "kick": [
+                {
+                    "manage_guild": true
+                },
+                "Moderator"
+            ],
+            "ban": [
+                {
+                    "manage_guild": true
+                },
+                "Moderator"
+            ],
+            "temp-ban": [
+                {
+                    "manage_guild": true
+                },
+                "Moderator"
+            ],
+            "disable": [
+                {
+                    "manage_guild": true
+                },
+                "Moderator"
+            ]
+        },
+        "replies": {
+            "description": ""
+        },
+        "subcommands": {
+            "delete": {
+                "description": {
+                    "en-GB": "Enables auto-delete for invites.",
+                    "en-US": "Enables auto-delete for invites.",
+                    "fr": "Activer auto-delete pour invites.",
+                    "ru": "Включает авто-удаление для приглашений."
+                },
+                "arguments": {}
+            },
+            "warn": {
+                "description": {
+                    "en-GB": "Enables auto-delete for invites and warns an user.",
+                    "en-US": "Enables auto-delete for invites and warns an user.",
+                    "fr": "Activer auto-delete pour invites et advertir un utilisateur.",
+                    "ru": "Включает авто-удаление для приглашение и предупреждает пользователя."
+                },
+                "arguments": {
+                    "reason": {
+                        "description": {
+                            "en-GB": "The reason of a warn.",
+                            "en-US": "The reason of a warn.",
+                            "fr": "La raison de l'advertisement.",
+                            "ru": "Причина предупреждения."
+                        }
+                    }
+                }
+            },
+            "mute": {
+                "description": {
+                    "en-GB": "Enables auto-delete for invites and mutes an user.",
+                    "en-US": "Enables auto-delete for invites and mutes an user.",
+                    "fr": "Activer auto-delete pour invitation et mettre silencieux un utilisateur.",
+                    "ru": "Включает авто-удаление для приглашений и мутит пользователя."
+                },
+                "arguments": {
+                    "time": {
+                        "description": {
+                            "en-GB": "The duration of the mute.",
+                            "en-US": "The duration of the mute.",
+                            "fr": "La duration du mettre en silence.",
+                            "ru": "Длительность мута."
+                        }
+                    },
+                    "time_unit": {
+                        "description": {
+                            "en-GB": "The time_unit of the duration.",
+                            "en-US": "The time_unit of the duration.",
+                            "fr": "L'unité de temps.",
+                            "ru": "Временная единица длительности."
+                        }
+                    },
+                    "reason": {
+                        "description": {
+                            "en-GB": "The reason of the mute.",
+                            "en-US": "The reason of the mute.",
+                            "fr": "La raison du silence.",
+                            "ru": "Причина мута."
+                        }
+                    }
+                }
+            },
+            "kick": {
+                "description": {
+                    "en-GB": "Enables auto-delete for invites and kicks an user.",
+                    "en-US": "Enables auto-delete for invites and kicks an user.",
+                    "fr": "Activer auto-delete pour invitation.",
+                    "ru": "Включает авто-удаление для приглашений и кикает пользователя."
+                },
+                "arguments": {
+                    "reason": {
+                        "description": {
+                            "en-GB": "The reason of a kick.",
+                            "en-US": "The reason of a kick.",
+                            "fr": "La raison du kick.",
+                            "ru": "Причина кика."
+                        }
+                    }
+                }
+            },
+            "ban": {
+                "description": {
+                    "en-GB": "Enables auto-delete for invites and bans an user.",
+                    "en-US": "Enables auto-delete for invites and bans an user.",
+                    "fr": "Activer auto-delete pour invites.",
+                    "ru": "Включает авто-удаление для приглашений и банит пользователя"
+                },
+                "arguments": {
+                    "days_delete": {
+                        "description": {
+                            "en-GB": "How old will the user's messages be deleted.",
+                            "en-US": "How old will the user's messages be deleted.",
+                            "fr": "Quel âge les messages de l'utilisateur seront-ils supprimés.",
+                            "ru": "Какой давности сообщения пользователя будут удалены."
+                        }
+                    },
+                    "reason": {
+                        "description": {
+                            "en-GB": "The reason of the ban.",
+                            "en-US": "The reason of the ban.",
+                            "fr": "La raison du ban.",
+                            "ru": "Причина бана."
+                        }
+                    }
+                }
+            },
+            "temp-ban": {
+                "description": {
+                    "en-GB": "Enables auto-delete for invites and temp-bans an user.",
+                    "en-US": "Enables auto-delete for invites and temp-bans an user.",
+                    "fr": "Activer auto-delete pour invites et temp-bans un utilisateur.",
+                    "ru": "Включает авто-удаление для приглашений и временно банит пользователя."
+                },
+                "arguments": {
+                    "time": {
+                        "description": {
+                            "en-GB": "The duration of the ban.",
+                            "en-US": "The duration of the ban.",
+                            "fr": "La duration du ban.",
+                            "ru": "Длительность бана."
+                        }
+                    },
+                    "time_unit": {
+                        "description": {
+                            "en-GB": "The time_unit of the duration.",
+                            "en-US": "The time_unit of the duration.",
+                            "fr": "L'unité de temps.",
+                            "ru": "Временная единица длительности."
+                        }
+                    },
+                    "days_delete": {
+                        "description": {
+                            "en-GB": "How old will the user's messages be deleted.",
+                            "en-US": "How old will the user's messages be deleted.",
+                            "fr": "Quel âge les messages de l'utilisateur seront-ils supprimés.",
+                            "ru": "Какой давности сообщения пользователя будут удалены."
+                        }
+                    },
+                    "reason": {
+                        "description": {
+                            "en-GB": "The reason of the ban.",
+                            "en-US": "The reason of the ban.",
+                            "fr": "La raison du ban.",
+                            "ru": "Причина бана."
+                        }
+                    }
+                }
+            },
+            "disable": {
+                "description": {
+                    "en-GB": "Disables auto-delete for invites.",
+                    "en-US": "Disables auto-delete for invites.",
+                    "fr": "Désactiver auto-delete pour invites.",
+                    "ru": "Выключает авто-удаление для приглашений."
+                },
+                "arguments": {}
+            }
+        }
+    },
+    "ban": {
+        "settings": {
+            "permissions": [
+                {
+                    "manage_guild": true
+                },
+                "Moderator"
+            ]
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Permanently bans an user.",
+                "en-US": "Permanently bans an user.",
+                "fr": "Bannir quelqu'un de façon permanente.",
+                "ru": "Банит пользователя навсегда."
+            },
+            "arguments": {
+                "user": {
+                    "description": {
+                        "en-GB": "The user you wanna ban.",
+                        "en-US": "The user you wanna ban.",
+                        "fr": "L'utilisateur que vous voulez bannir.",
+                        "ru": "Пользователь, которого вы хотите забанить."
+                    }
+                },
+                "days_delete": {
+                    "description": {
+                        "en-GB": "How old will the user's messages be deleted.",
+                        "en-US": "How old will the user's messages be deleted.",
+                        "fr": "Quel âge les messages de l'utilisateur seront-ils supprimés.",
+                        "ru": "Какой давности сообщения пользователя будут удалены."
+                    }
+                },
+                "reason": {
+                    "description": {
+                        "en-GB": "The reason of the ban.",
+                        "en-US": "The reason of the ban.",
+                        "fr": "La raison du ban.",
+                        "ru": "Причина бана."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "deleted-message-log": {
+        "settings": {
+            "enable": [
+                {
+                    "manage_messages": true,
+                    "manage_guild": true
+                },
+                "Moderator"
+            ],
+            "disable": [
+                {
+                    "manage_messages": true,
+                    "manage_guild": true
+                },
+                "Moderator"
+            ]
+        },
+        "replies": {
+            "description": ""
+        },
+        "subcommands": {
+            "enable": {
+                "description": {
+                    "en-GB": "Enables logging for deleted messages.",
+                    "en-US": "Enables logging for deleted messages.",
+                    "fr": "Activer logs du message supprimé.",
+                    "ru": "Включает запись для удаленных сообщений."
+                },
+                "arguments": {
+                    "channel": {
+                        "description": {
+                            "en-GB": "The channel where deletes will be logged.",
+                            "en-US": "The channel where deletes will be logged.",
+                            "fr": "Le canal où les modifications vont être affiché.",
+                            "ru": "Канал, где будут записаны удаления."
+                        }
+                    }
+                }
+            },
+            "disable": {
+                "description": {
+                    "en-GB": "Disabled logging for deleted messages.",
+                    "en-US": "Disabled logging for deleted messages.",
+                    "fr": "Désactiver les logs.",
+                    "ru": "Выключает записи для удаленных сообщений."
+                },
+                "arguments": {}
+            }
+        }
+    },
+    "edited-message-log": {
+        "settings": {
+            "enable": [
+                {
+                    "manage_messages": true,
+                    "manage_guild": true
+                },
+                "Moderator"
+            ],
+            "disable": [
+                {
+                    "manage_messages": true,
+                    "manage_guild": true
+                },
+                "Moderator"
+            ]
+        },
+        "replies": {
+            "description": ""
+        },
+        "subcommands": {
+            "enable": {
+                "description": {
+                    "en-GB": "Enables logging for edited messages.",
+                    "en-US": "Enables logging for edited messages.",
+                    "fr": "Activer les logs pour edited-messages.",
+                    "ru": "Включает записи для измененных сообщений."
+                },
+                "arguments": {
+                    "channel": {
+                        "description": {
+                            "en-GB": "The channel where edits will be logged.",
+                            "en-US": "The channel where edits will be logged.",
+                            "fr": "Le canal ou la modification vont être loggés",
+                            "ru": "Канал, где будут записаны изменения."
+                        }
+                    }
+                }
+            },
+            "disable": {
+                "description": {
+                    "en-GB": "Disabled logging for edited messages.",
+                    "en-US": "Disabled logging for edited messages.",
+                    "fr": "Désactiver les logs pour edited messages.",
+                    "ru": "Выключает записи для измененных сообщений."
+                },
+                "arguments": {}
+            }
+        }
+    },
+    "kick": {
+        "settings": {
+            "permissions": [
+                {
+                    "kick_members": true
+                },
+                "Moderator"
+            ]
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Kick user from the server.",
+                "en-US": "Kick user from the server.",
+                "fr": "Kick un utilisateur pour le serveur.",
+                "ru": "Кикает пользователя с сервера."
+            },
+            "arguments": {
+                "user": {
+                    "description": {
+                        "en-GB": "The user you wanna kick.",
+                        "en-US": "The user you wanna kick.",
+                        "fr": "L'utilisateur que vous voulez Kick.",
+                        "ru": "Пользователь, которого вы хотите кикнуть."
+                    }
+                },
+                "reason": {
+                    "description": {
+                        "en-GB": "The reason of the kick.",
+                        "en-US": "The reason of the kick.",
+                        "fr": "La raison du kick.",
+                        "ru": "Причина кика."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "mute-role": {
+        "settings": {
+            "create": [
+                {
+                    "manage_roles": true
+                },
+                "Moderator"
+            ],
+            "set": [
+                {
+                    "manage_roles": true
+                },
+                "Moderator"
+            ]
+        },
+        "replies": {
+            "description": ""
+        },
+        "subcommands": {
+            "create": {
+                "description": {
+                    "en-GB": "Creates a mute role.",
+                    "en-US": "Creates a mute role.",
+                    "fr": "Créer un rôle muté.",
+                    "ru": "Создает роль для мута."
+                },
+                "arguments": {}
+            },
+            "set": {
+                "description": {
+                    "en-GB": "Sets an existing role as mute-role.",
+                    "en-US": "Sets an existing role as mute-role.",
+                    "fr": "Mettre un rôle existant en tant que muted.",
+                    "ru": "Устанавливает существующую роль как роль мута."
+                },
+                "arguments": {
+                    "role": {
+                        "description": {
+                            "en-GB": "The role you wanna use as mute-role.",
+                            "en-US": "The role you wanna use as mute-role.",
+                            "fr": "Le rôle qui va être muted.",
+                            "ru": "Роль, которую вы хотите использовать как роль для мута."
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "mute": {
+        "settings": {
+            "permissions": [
+                {
+                    "manage_roles": true
+                },
+                "Moderator"
+            ]
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Mutes user for a while.",
+                "en-US": "Mutes user for a while.",
+                "fr": "Muter un utilisateur pour un tempsp.",
+                "ru": "Мутит пользователя на время."
+            },
+            "arguments": {
+                "user": {
+                    "description": {
+                        "en-GB": "The user you wanna mute.",
+                        "en-US": "The user you wanna mute.",
+                        "fr": "L'utilisateur que vous voulez muter.",
+                        "ru": "Пользователь, которого вы хотите замутить."
+                    }
+                },
+                "time": {
+                    "description": {
+                        "en-GB": "The duration of the mute.",
+                        "en-US": "The duration of the mute.",
+                        "fr": "La duration du mute.",
+                        "ru": "Длительность мута."
+                    }
+                },
+                "time_unit": {
+                    "description": {
+                        "en-GB": "The time_unit of the duration.",
+                        "en-US": "The time_unit of the duration.",
+                        "fr": "L'unité de temps.",
+                        "ru": "Временная единица мута."
+                    }
+                },
+                "reason": {
+                    "description": {
+                        "en-GB": "The reason of the mute.",
+                        "en-US": "The reason of the mute.",
+                        "fr": "La raison du mute.",
+                        "ru": "Причина мута."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "punishments": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Sends an user's moderation history.",
+                "en-US": "Sends an user's moderation history.",
+                "fr": "Envoyer l'historique de modération.",
+                "ru": "Отправляет историю модерации пользователя."
+            },
+            "arguments": {
+                "user": {
+                    "description": {
+                        "en-GB": "The user whose punishments you wanna check.",
+                        "en-US": "The user whose punishments you wanna check.",
+                        "fr": "L'utilisateur dont vous voulez voir l'historique de modération.",
+                        "ru": "Пользователь, чьи нарушения вы хотите проверить."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "purge": {
+        "settings": {
+            "permissions": [
+                {
+                    "manage_messages": true
+                },
+                "Moderator"
+            ]
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Clears the current chat.",
+                "en-US": "Clears the current chat.",
+                "fr": "Supprimer le chat.",
+                "ru": "Очищает текущий чат."
+            },
+            "arguments": {
+                "quantity": {
+                    "description": {
+                        "en-GB": "The quantity of messages.",
+                        "en-US": "The quantityh of messages.",
+                        "fr": "La quantité de messages.",
+                        "ru": "Количество сообщений."
+                    }
+                },
+                "user": {
+                    "description": {
+                        "en-GB": "The user whose messages you wanna clear.",
+                        "en-US": "The user whose messages you wanna clear.",
+                        "fr": "L'utilisateur dont vous voulez supprimer les messages.",
+                        "ru": "Пользователь, чьи сообщения вы хотите очистить."
+                    }
+                },
+                "bot": {
+                    "description": {
+                        "en-GB": "The filter that deletes only bots' messages.",
+                        "en-US": "The filter that deletes only bots' messages.",
+                        "fr": "Le filtre qui supprime seulement les messages des robots.",
+                        "ru": "Фильтр, который удаляет только сообщения ботов."
+                    }
+                },
+                "links": {
+                    "description": {
+                        "en-GB": "The filter that deletes messages with links.",
+                        "en-US": "The filter that deletes messages with links.",
+                        "fr": "Le filtre qui supprime seulement les liens.",
+                        "ru": "Фильтр, который удаляет только сообщения с ссылками."
+                    }
+                },
+                "invites": {
+                    "description": {
+                        "en-GB": "The filter that deletes only messages with invites.",
+                        "en-US": "The filter that deletes only messages with invites.",
+                        "fr": "Le filtre qui supprime seulement les messages qui contiennent invitations.",
+                        "ru": "Фильтр, который удаляет только сообщения с приглашениями."
+                    }
+                },
+                "embeds": {
+                    "description": {
+                        "en-GB": "The filter that deletes messages with embeds.",
+                        "en-US": "The filter that deletes messages with embeds.",
+                        "fr": "Le filtre qui supprime seulement les messages avec des embeds.",
+                        "ru": "Фильтр, который удаляет только сообщения с эмбедами."
+                    }
+                },
+                "images": {
+                    "description": {
+                        "en-GB": "The filter that deletes messages with images.",
+                        "en-US": "The filter that deletes messages with images.",
+                        "fr": "Le filtre qui supprime seulement les messages avec des images.",
+                        "ru": "Фильтр, который удаляет только сообщения с картинками."
+                    }
+                },
+                "files": {
+                    "description": {
+                        "en-GB": "The filter that deletes only messages with files.",
+                        "en-US": "The filter that deletes only messages with files.",
+                        "fr": "Le filtre qui supprime seulement les messages avec des fichiers.",
+                        "ru": "Фильтр, который удаляет только сообщения с файлами."
+                    }
+                },
+                "mentions": {
+                    "description": {
+                        "en-GB": "The filter that deletes messages with mentions.",
+                        "en-US": "The filter that deletes messages with mentions.",
+                        "fr": "Le filtre qui supprime seulement les messages avec des mentions.",
+                        "ru": "Фильтр, который удаляет только сообщения с упоминаниями."
+                    }
+                },
+                "pins": {
+                    "description": {
+                        "en-GB": "The filter that deletes pinned messages.",
+                        "en-US": "The filter that deletes pinned messages.",
+                        "fr": "Le filtre qui supprime seulement les messages pinger.",
+                        "ru": "Фильтр, который позволяет удалять закрепленные сообщения."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "reason": {
+        "settings": {
+            "permissions": [
+                {
+                    "kick_members": true
+                },
+                "Moderator"
+            ]
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Edits reason for case.",
+                "en-US": "Edits reason for case.",
+                "fr": "Modifier la raison du cas.",
+                "ru": "Изменяет причину для случая."
+            },
+            "arguments": {
+                "case": {
+                    "description": {
+                        "en-GB": "The case whose reason you wanna edit.",
+                        "en-US": "The case whose reason you wanna edit.",
+                        "fr": "Le cas dont vous voulez changer la raison.",
+                        "ru": "Случай, чью причину вы хотите изменить."
+                    }
+                },
+                "reason": {
+                    "description": {
+                        "en-GB": "The reason you wanna set.",
+                        "en-US": "The reason you wanna set.",
+                        "fr": "La raison que vous voulez mettre.",
+                        "ru": "Причина, которую вы хотите поставить."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "remove-case": {
+        "settings": {
+            "permissions": [
+                {
+                    "kick_members": true
+                },
+                "Moderator"
+            ]
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Removes case from user's punishments history.",
+                "en-US": "Removes case from user's punishments history.",
+                "fr": "Supprimer un cas de l'historique de l'utilisateur.",
+                "ru": "Удаляет случай из истории нарушений пользователя."
+            },
+            "arguments": {
+                "case": {
+                    "description": {
+                        "en-GB": "A case you wanna delete.",
+                        "en-US": "A case you wanna delete.",
+                        "fr": "Le cas que vous souhaitez supprimer.",
+                        "ru": "Случай, который вы хотите удалить."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "slow-mode": {
+        "settings": {
+            "permissions": [
+                {
+                    "manage_channels": true
+                },
+                "Moderator"
+            ]
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Sets slowmode to the channel.",
+                "en-US": "Sets slowmode to the channel.",
+                "fr": "Activer le mode lent dans le canal.",
+                "ru": "Устанавливает слоу-мод для канала."
+            },
+            "arguments": {
+                "time": {
+                    "description": {
+                        "en-GB": "The duration of a slowmode.",
+                        "en-US": "The duration of a slowmode.",
+                        "fr": "La durée d'un mode lent.",
+                        "ru": "Длительность медленного режима."
+                    }
+                },
+                "time_unit": {
+                    "description": {
+                        "en-GB": "The time_unit for duration.",
+                        "en-US": "The time_unit for duration.",
+                        "fr": "L'unité de temps.",
+                        "ru": "Временная единица для длительности."
+                    }
+                },
+                "channel": {
+                    "description": {
+                        "en-GB": "The channel where you wanna set slowmode.",
+                        "en-US": "The channel where you wanna set slowmode.",
+                        "fr": "Le canal sur lequel vous souhaitez définir le mode lent.",
+                        "ru": "Канал, где вы хотите установить медленный режим."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "temp-ban": {
+        "settings": {
+            "permissions": [
+                {
+                    "ban_users": true
+                },
+                "Moderator"
+            ]
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Temporarily bans an user.",
+                "en-US": "Temporarily bans an user.",
+                "fr": "Bannir un utilisateur de façon temporaire.",
+                "ru": "Временно банит пользователя."
+            },
+            "arguments": {
+                "user": {
+                    "description": {
+                        "en-GB": "The user you wanna ban.",
+                        "en-US": "The user you wanna ban.",
+                        "fr": "L'utilisateur que vous voulez bannir.",
+                        "ru": "Пользователь, которого вы хотите забанить."
+                    }
+                },
+                "time": {
+                    "description": {
+                        "en-GB": "The duration of the ban.",
+                        "en-US": "The duration of the ban.",
+                        "fr": "La duration du bannissement.",
+                        "ru": "Длительность бана."
+                    }
+                },
+                "time_unit": {
+                    "description": {
+                        "en-GB": "The time_unit of the duration.",
+                        "en-US": "The time_unit of the duration.",
+                        "fr": "L'unité de temps.",
+                        "ru": "Временная единица длительности."
+                    }
+                },
+                "days_delete": {
+                    "description": {
+                        "en-GB": "How old will the user's messages be deleted.",
+                        "en-US": "How old will the user's messages be deleted.",
+                        "fr": "Quel âge les messages de l'utilisateur seront-ils supprimés.",
+                        "ru": "Какой давности сообщения пользователя будут удалены."
+                    }
+                },
+                "reason": {
+                    "description": {
+                        "en-GB": "The reason of the ban.",
+                        "en-US": "The reason of the ban.",
+                        "fr": "La raison du bannissement.",
+                        "ru": "Причина бана."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "un-ban": {
+        "settings": {
+            "permissions": [
+                {
+                    "ban_users": true
+                },
+                "Moderator"
+            ]
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Unbans user.",
+                "en-US": "Unbans user.",
+                "fr": "Débannir un utilisateur.",
+                "ru": "Разбанивает пользователя."
+            },
+            "arguments": {
+                "user": {
+                    "description": {
+                        "en-GB": "The user you wanna unban.",
+                        "en-US": "The user you wanna unban.",
+                        "fr": "L'utilisateur que vous voulez debannir.",
+                        "ru": "Пользователь, которого вы хотите разбанить."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "un-mute": {
+        "settings": {
+            "permissions": [
+                {
+                    "manage_roles": true
+                },
+                "Moderator"
+            ]
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Unmutes user.",
+                "en-US": "Unmutes user.",
+                "fr": "Demuter un utilisateur.",
+                "ru": "Размучивает пользователя."
+            },
+            "arguments": {
+                "user": {
+                    "description": {
+                        "en-GB": "The user you wanna unmute.",
+                        "en-US": "The user you wanna unmute.",
+                        "fr": "L'utilisateur que vous voulez démuter.",
+                        "ru": "Пользователь, которого вы хотите размутить."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "view-case": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Sends details of user's punishment.",
+                "en-US": "Sends details of user's punishment.",
+                "fr": "Envoie les détails de la punition de l'utilisateur.",
+                "ru": "Отправляет информацию о нарушении пользователя."
+            },
+            "arguments": {
+                "case": {
+                    "description": {
+                        "en-GB": "The case you wanna see.",
+                        "en-US": "The case you wanna see.",
+                        "fr": "Le cas que vous voulez voir.",
+                        "ru": "Случай, который вы хотите посмотреть."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "warn": {
+        "settings": {
+            "permissions": [
+                {
+                    "kick_members": true
+                },
+                "Moderator"
+            ]
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Warns user.",
+                "en-US": "Warns user.",
+                "fr": "Advertir un utilisateur.",
+                "ru": "Предупреждает пользователя."
+            },
+            "arguments": {
+                "user": {
+                    "description": {
+                        "en-GB": "The user you wanna warn.",
+                        "en-US": "The user you wanna warn.",
+                        "fr": "L'utilisateur que vous voulez advertir.",
+                        "ru": "Пользователь, которого вы хотите предупредить."
+                    }
+                },
+                "reason": {
+                    "description": {
+                        "en-GB": "The reason of the warn.",
+                        "en-US": "The reason of the warn.",
+                        "fr": "La raison de l'advertissement",
+                        "ru": "Причина предупреждения."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "nsfw": {
+        "settings": {
+            "neko": [],
+            "hentai": [],
+            "tentacle": [],
+            "hboobs": [],
+            "hass": [],
+            "boobs": [],
+            "anal": [],
+            "pussy": [],
+            "ass": [],
+            "4k": []
+        },
+        "replies": {
+            "description": ""
+        },
+        "subcommands": {
+            "4k": {
+                "description": {
+                    "en-GB": "NSFW Image.",
+                    "en-US": "NSFW Image.",
+                    "fr": "NSFW Image.",
+                    "ru": "NSFW Картинка."
+                },
+                "arguments": {}
+            },
+            "anal": {
+                "description": {
+                    "en-GB": "NSFW Image.",
+                    "en-US": "NSFW Image.",
+                    "fr": "NSFW Image.",
+                    "ru": "NSFW Картинка."
+                },
+                "arguments": {}
+            },
+            "ass": {
+                "description": {
+                    "en-GB": "NSFW Image.",
+                    "en-US": "NSFW Image.",
+                    "fr": "NSFW Image.",
+                    "ru": "NSFW Картинка."
+                },
+                "arguments": {}
+            },
+            "boobs": {
+                "description": {
+                    "en-GB": "NSFW Image.",
+                    "en-US": "NSFW Image.",
+                    "fr": "NSFW Image.",
+                    "ru": "NSFW Картинка."
+                },
+                "arguments": {}
+            },
+            "hass": {
+                "description": {
+                    "en-GB": "NSFW Image.",
+                    "en-US": "NSFW Image.",
+                    "fr": "NSFW Image.",
+                    "ru": "NSFW Картинка."
+                },
+                "arguments": {}
+            },
+            "hboobs": {
+                "description": {
+                    "en-GB": "NSFW Image.",
+                    "en-US": "NSFW Image.",
+                    "fr": "NSFW Image.",
+                    "ru": "NSFW Картинка."
+                },
+                "arguments": {}
+            },
+            "hentai": {
+                "description": {
+                    "en-GB": "NSFW Image.",
+                    "en-US": "NSFW Image.",
+                    "fr": "NSFW Image.",
+                    "ru": "NSFW Картинка."
+                },
+                "arguments": {}
+            },
+            "neko": {
+                "description": {
+                    "en-GB": "NSFW Image.",
+                    "en-US": "NSFW Image.",
+                    "fr": "NSFW Image.",
+                    "ru": "NSFW Картинка."
+                },
+                "arguments": {}
+            },
+            "pussy": {
+                "description": {
+                    "en-GB": "NSFW Image.",
+                    "en-US": "NSFW Image.",
+                    "fr": "NSFW Image.",
+                    "ru": "NSFW Картинка."
+                },
+                "arguments": {}
+            },
+            "tentacle": {
+                "description": {
+                    "en-GB": "NSFW Image.",
+                    "en-US": "NSFW Image.",
+                    "fr": "NSFW Image.",
+                    "ru": "NSFW Картинка."
+                },
+                "arguments": {}
+            }
+        }
+    },
+    "auto-roles": {
+        "settings": {
+            "add": [
+                {
+                    "manage_guild": true
+                }
+            ],
+            "remove": [
+                {
+                    "manage_guild": true
+                }
+            ],
+            "list": []
+        },
+        "replies": {
+            "description": ""
+        },
+        "subcommands": {
+            "add": {
+                "description": {
+                    "en-GB": "Adds a role to auto-roles.",
+                    "en-US": "Adds a role to auto-roles.",
+                    "fr": "Ajouter le role de auto-roles.",
+                    "ru": "Добавляет роль в auto-roles."
+                },
+                "arguments": {
+                    "role": {
+                        "description": {
+                            "en-GB": "The role that an user will receive when joining the server.",
+                            "en-US": "The role that an user will receive when joining the server.",
+                            "fr": "Le rôle qu'un utilisateur recevra lorsqu'il rejoindra le serveur.",
+                            "ru": "Роль, которую будет получать пользователь при присоединении на сервер."
+                        }
+                    }
+                }
+            },
+            "remove": {
+                "description": {
+                    "en-GB": "Removes the role from auto-roles.",
+                    "en-US": "Removes the role from auto-roles.",
+                    "fr": "Retirer le rôle de auto-roles.",
+                    "ru": "Удаляет роль из auto-roles."
+                },
+                "arguments": {
+                    "role": {
+                        "description": {
+                            "en-GB": "The role that an user will no longer receive when joining the server.",
+                            "en-US": "The role that an user will no longer receive when joining the server.",
+                            "fr": "Le rôle qu'un utilisateur ne recevra plus lorsqu'il rejoindra le serveur.",
+                            "ru": "Роль, которую перестанет получать пользователь при присоединении на сервер."
+                        }
+                    }
+                }
+            },
+            "list": {
+                "description": {
+                    "en-GB": "Sends a list of auto-roles.",
+                    "en-US": "Sends a list of auto-roles.",
+                    "fr": "Envoyer la liste de auto-roles.",
+                    "ru": "Отправляет список auto-roles."
+                },
+                "arguments": {}
+            }
+        }
+    },
+    "bot-commander": {
+        "settings": {
+            "enable": [
+                {
+                    "manage_guild": true
+                }
+            ],
+            "disable": [
+                {
+                    "manage_guild": true
+                }
+            ]
+        },
+        "replies": {
+            "description": ""
+        },
+        "subcommands": {
+            "enable": {
+                "description": {
+                    "en-GB": "Enables the bot commander role.",
+                    "en-US": "Enables the bot commander role.",
+                    "fr": "Activez-le commander de robot rôle.",
+                    "ru": "Включает роль управляющего ботом."
+                },
+                "arguments": {
+                    "role": {
+                        "description": {
+                            "en-GB": "The role that will be able to use bot commander commands.",
+                            "en-US": "The role that will be able to use bot commander commands.",
+                            "fr": "Le rôle qui pourra utiliser le robot commander.",
+                            "ru": "Роль, которая сможет использовать команды управляющего ботом."
+                        }
+                    }
+                }
+            },
+            "disable": {
+                "description": {
+                    "en-GB": "Disables the bot commander role.",
+                    "en-US": "Disables the bot commander role.",
+                    "fr": "Désactiver le robot commander rôle.",
+                    "ru": "Выключает роль управляющего ботом."
+                },
+                "arguments": {}
+            }
+        }
+    },
+    "button-roles": {
+        "settings": {
+            "create": [
+                {
+                    "manage_guild": true
+                }
+            ],
+            "add": [
+                {
+                    "manage_guild": true
+                }
+            ],
+            "remove": [
+                {
+                    "manage_guild": true
+                }
+            ],
+            "edit": [
+                {
+                    "manage_guild": true
+                }
+            ],
+            "list": []
+        },
+        "replies": {
+            "description": ""
+        },
+        "subcommands": {
+            "create": {
+                "description": {
+                    "en-GB": "Sends message with buttons that onclick gives role.",
+                    "en-US": "Sends message with buttons that onclick gives role.",
+                    "fr": "Envoyer des messages avec des boutons qui donnent des rôles.",
+                    "ru": "Отправляет сообщение с кнопками, которые при нажатии дают роль."
+                },
+                "arguments": {
+                    "title": {
+                        "description": {
+                            "en-GB": "The title of the embed.",
+                            "en-US": "The title of the embed.",
+                            "fr": "Le titre de l'embed.",
+                            "ru": "Заголовок embed."
+                        }
+                    },
+                    "description": {
+                        "description": {
+                            "en-GB": "The description of the embed.",
+                            "en-US": "The description of the embed.",
+                            "fr": "La description de l'embed.",
+                            "ru": "Описание embed."
+                        }
+                    },
+                    "role": {
+                        "description": {
+                            "en-GB": "The role that will be given to an user.",
+                            "en-US": "The role that will be given to an user.",
+                            "fr": "Le rôle qui sera donné à un utilisateur.",
+                            "ru": "Роль, которая будет выданы пользователю."
+                        }
+                    },
+                    "style": {
+                        "description": {
+                            "en-GB": "The style of the button.",
+                            "en-US": "The style of the button.",
+                            "fr": "Le style du bouton",
+                            "ru": "Стиль кнопки."
+                        }
+                    },
+                    "name": {
+                        "description": {
+                            "en-GB": "The name of the button with the role. By default - role's name.",
+                            "en-US": "The name of the button with the role. By default - role's name.",
+                            "fr": "Le nom du bouton avec le rôle. Par défaut - le nom du rôle.",
+                            "ru": "Название кнопки с ролью. По умолчанию - название роли."
+                        }
+                    }
+                }
+            },
+            "add": {
+                "description": {
+                    "en-GB": "Adds a role to button-roles.",
+                    "en-US": "Adds a role to button-roles.",
+                    "fr": "Ajouter un rôle à button-rôles",
+                    "ru": "Добавляет роль в button-roles."
+                },
+                "arguments": {
+                    "message": {
+                        "description": {
+                            "en-GB": "The ID of message you wanna edit.",
+                            "en-US": "The ID of message you wanna edit.",
+                            "fr": "L'ID du message que vous voulez modifier",
+                            "ru": "ID сообщения, которое вы хотите изменить."
+                        }
+                    },
+                    "role": {
+                        "description": {
+                            "en-GB": "The role that will be given to an user.",
+                            "en-US": "The role that will be given to an user.",
+                            "fr": "Le rôle qui sera donné à un utilisateur.",
+                            "ru": "Роль, которая будет выдана пользователю."
+                        }
+                    },
+                    "style": {
+                        "description": {
+                            "en-GB": "The style of the button.",
+                            "en-US": "The style of the button.",
+                            "fr": "Le style du bouton.",
+                            "ru": "Стиль кнопки."
+                        }
+                    },
+                    "name": {
+                        "description": {
+                            "en-GB": "The name of the button with the role. By default - role's name.",
+                            "en-US": "The name of the button with the role. By default - role's name.",
+                            "fr": "Le nom du bouton avec le rôle. Par défaut - le nom du rôle.",
+                            "ru": "Название кнопки с ролью. По умолчанию - название роли."
+                        }
+                    }
+                }
+            },
+            "remove": {
+                "description": {
+                    "en-GB": "Removes a role from button-roles.",
+                    "en-US": "Removes a role from button-roles.",
+                    "fr": "Supprimer un rôle de button-rôles.",
+                    "ru": "Удаляет роль из button-roles."
+                },
+                "arguments": {
+                    "message": {
+                        "description": {
+                            "en-GB": "The id of a message you wanna edit.",
+                            "en-US": "The id of a message you wanna edit.",
+                            "fr": "L'id du message que vous voulez modifier.",
+                            "ru": "ID сообщения, которое вы хотите изменить."
+                        }
+                    },
+                    "role": {
+                        "description": {
+                            "en-GB": "The role you wanna remove.",
+                            "en-US": "The role you wanna remove.",
+                            "fr": "Le rôle que vous voulez retirer.",
+                            "ru": "Роль, которую вы хотите удалить."
+                        }
+                    }
+                }
+            },
+            "edit": {
+                "description": {
+                    "en-GB": "Edits a title or a description for button-roles.",
+                    "en-US": "Edits a title or a description for button-roles.",
+                    "fr": "Modifier un titre ou une description pour button-rôles.",
+                    "ru": "Изменяет заголовок или описание для button-roles."
+                },
+                "arguments": {
+                    "message": {
+                        "description": {
+                            "en-GB": "The id of message you wanna edit.",
+                            "en-US": "The id of message you wanna edit.",
+                            "fr": "L'id du message que vous voulez modifier",
+                            "ru": "ID сообщения, которое вы хотите изменить."
+                        }
+                    },
+                    "title": {
+                        "description": {
+                            "en-GB": "The title of the embed.",
+                            "en-US": "The title of the embed.",
+                            "fr": "Le titre de l'embed",
+                            "ru": "Заголовок embed."
+                        }
+                    },
+                    "description": {
+                        "description": {
+                            "en-GB": "The description of the embed.",
+                            "en-US": "The description of the embed.",
+                            "fr": "La description de l'embed.",
+                            "ru": "Описание embed."
+                        }
+                    }
+                }
+            },
+            "list": {
+                "description": {
+                    "en-GB": "Sends button-roles list.",
+                    "en-US": "Sends button-roles list.",
+                    "fr": "Envoyer la liste de button-rôles.",
+                    "ru": "Sends button-roles list."
+                },
+                "arguments": {
+                    "message": {
+                        "description": {
+                            "en-GB": "The id of message whose button-roles you wanna get.",
+                            "en-US": "The id of message whose button-roles you wanna get.",
+                            "fr": "L'id du message dont vous voulez avoir.",
+                            "ru": "ID сообщения, которое вы хотите изменить."
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "disable": {
+        "settings": {
+            "permissions": [
+                {
+                    "manage_guild": true
+                }
+            ]
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Disables command or module.",
+                "en-US": "Disables command or module.",
+                "fr": "Désactiver une commande ou un module.",
+                "ru": "Выключает команду или модуль."
+            },
+            "arguments": {
+                "command": {
+                    "description": {
+                        "en-GB": "The name of a command you wanna disable. Subcommand example: exp_amount.max",
+                        "en-US": "The name of a command you wanna disable. Subcommand example: exp_amount.max",
+                        "fr": "Nom de la commande que vous voulez désactiver. Exemple de sous-commande: exp_amount.max",
+                        "ru": "Название команды, которую вы хотите выключить. Пример подкоманды: exp_amount.max"
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "enable": {
+        "settings": {
+            "permissions": [
+                {
+                    "manage_guild": true
+                }
+            ]
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Enables command or module.",
+                "en-US": "Enables command or module.",
+                "fr": "Activer une commande ou un module.",
+                "ru": "Включает команду или модуль."
+            },
+            "arguments": {
+                "command": {
+                    "description": {
+                        "en-GB": "The name of a command you wanna enable. Subcommand example: exp_amount.max",
+                        "en-US": "The name of a command you wanna enable. Subcommand example: exp_amount.max",
+                        "fr": "Nom de la commande que vous voulez activer. Exemple de sous-commande: exp_amount.max",
+                        "ru": "Название команды, которую вы хотите включить. Пример подкоманды: exp_amount.max"
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "factory-reset": {
+        "settings": {
+            "permissions": [
+                {
+                    "manage_guild": true
+                }
+            ]
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Resets ALL bot settings(button roles, shop and etc) irrevocably. It won't touch users.",
+                "en-US": "Resets ALL bot settings(button roles, shop and etc) irrevocably. It won't touch users.",
+                "fr": "Réinitialiser tous les paramètres du robot. Pas ceux des utilisateurs.",
+                "ru": "Сбрасывает ВСЕ настройки бота(button-roles, shop и т.д) безвозвратно. Это не коснётся пользователей."
+            },
+            "arguments": {}
+        },
+        "subcommands": {}
+    },
+    "leave-message": {
+        "settings": {
+            "enable": [
+                {
+                    "manage_guild": true
+                }
+            ],
+            "disable": [
+                {
+                    "manage_guild": true
+                }
+            ]
+        },
+        "replies": {
+            "description": ""
+        },
+        "subcommands": {
+            "enable": {
+                "description": {
+                    "en-GB": "Enables leave message.",
+                    "en-US": "Enables leave message.",
+                    "fr": "Activer les messages quand quelqu'un part.",
+                    "ru": "Включает прощальное сообщение."
+                },
+                "arguments": {
+                    "message": {
+                        "description": {
+                            "en-GB": "The message that will be sent when an user leaves the server.",
+                            "en-US": "The message that will be sent when an user leaves the server.",
+                            "fr": "Le message qui sera envoyé lorsqu'un utilisateur quittera le serveur.",
+                            "ru": "Сообщение, которое будет отправлено, когда пользователь уходит."
+                        }
+                    },
+                    "channel": {
+                        "description": {
+                            "en-GB": "The channel where a leave message will be sent. Leave it blank to send in dm.",
+                            "en-US": "The channel where a leave message will be sent. Leave it blank to send in dm.",
+                            "fr": "Le canal ou le message va être envoyé. Laissez-le vide pour envoyer en dm.",
+                            "ru": "Канал, где будет отправлено прощальное сообщение. Оставьте поле пустым для отправки в лс."
+                        }
+                    }
+                }
+            },
+            "disable": {
+                "description": {
+                    "en-GB": "Disables leave message.",
+                    "en-US": "Disables leave message.",
+                    "fr": "Désactiver message parti.",
+                    "ru": "Выключает прощальное сообщение."
+                },
+                "arguments": {}
+            }
+        }
+    },
+    "moderator-role": {
+        "settings": {
+            "enable": [
+                {
+                    "manage_guild": true
+                },
+                "Moderator"
+            ],
+            "disable": [
+                {
+                    "manage_guild": true
+                },
+                "Moderator"
+            ]
+        },
+        "replies": {
+            "description": ""
+        },
+        "subcommands": {
+            "enable": {
+                "description": {
+                    "en-GB": "Enables the moderator role.",
+                    "en-US": "Enables the moderator role.",
+                    "fr": "Activer le rôle modérateur.",
+                    "ru": "Включает роль модератора."
+                },
+                "arguments": {
+                    "role": {
+                        "description": {
+                            "en-GB": "A role whose members will be able to use moderation commands.",
+                            "en-US": "A role whose members will be able to use moderation commands.",
+                            "fr": "Un rôle dont les membres pourront utiliser les commandes de modération.",
+                            "ru": "Роль, участники которой смогут использовать команды модерации."
+                        }
+                    }
+                }
+            },
+            "disable": {
+                "description": {
+                    "en-GB": "Disables the moderator role.",
+                    "en-US": "Disables the moderator role.",
+                    "fr": "Désactiver le rôle modérateur.",
+                    "ru": "Выключает роль модератора."
+                },
+                "arguments": {}
+            }
+        }
+    },
+    "self-roles": {
+        "settings": {
+            "add": [
+                {
+                    "manage_guild": true
+                }
+            ],
+            "remove": [
+                {
+                    "manage_guild": true
+                }
+            ],
+            "list": []
+        },
+        "replies": {
+            "description": ""
+        },
+        "subcommands": {
+            "remove": {
+                "description": {
+                    "en-GB": "Removes a role from self-roles.",
+                    "en-US": "Removes a role from self-roles.",
+                    "fr": "Supprimer le rôle de self-rôles.",
+                    "ru": "Удаляет роль из self-roles."
+                },
+                "arguments": {
+                    "role": {
+                        "description": {
+                            "en-GB": "The role that will no longer be given to an user via self-roles.",
+                            "en-US": "The role that will no longer be given to an user via self-roles.",
+                            "fr": "Le rôle qui ne sera plus attribué à un utilisateur via des rôles personnels.",
+                            "ru": "Роль, которая перестанет выдаваться пользователю через self-roles."
+                        }
+                    }
+                }
+            },
+            "add": {
+                "description": {
+                    "en-GB": "Adds a role to self-roles.",
+                    "en-US": "Adds a role to self-roles.",
+                    "fr": "Ajouter un rôle à self-rôles.",
+                    "ru": "Добавляет роль в self-roles."
+                },
+                "arguments": {
+                    "role": {
+                        "description": {
+                            "en-GB": "The role that will be given to an user via self-roles.",
+                            "en-US": "The role that will be given to an user via self-roles.",
+                            "fr": "Le rôle qui sera donné à un utilisateur via self-roles.",
+                            "ru": "Роль, которая будет выдаваться пользователю через self-roles."
+                        }
+                    }
+                }
+            },
+            "list": {
+                "description": {
+                    "en-GB": "Sends a list of self-roles.",
+                    "en-US": "Sends a list of self-roles.",
+                    "fr": "Envoyer une liste de selfs-rôles.",
+                    "ru": "Отправляет список self-roles."
+                },
+                "arguments": {}
+            }
+        }
+    },
+    "suggest-info": {
+        "settings": {
+            "permissions": [
+                {
+                    "manage_messages": true
+                },
+                "Moderator"
+            ]
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Sends suggestion information.",
+                "en-US": "Sends suggestion information.",
+                "fr": "Envoyer les informations de suggestion.",
+                "ru": "Отправляет информацию о предложении."
+            },
+            "arguments": {
+                "message": {
+                    "description": {
+                        "en-GB": "The ID of a message.",
+                        "en-US": "The ID of a message.",
+                        "fr": "L'ID du message.",
+                        "ru": "ID сообщения."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "suggest": {
+        "settings": {
+            "permissions": []
+        },
+        "replies": {
+            "description": {
+                "en-GB": "Makes a suggestion in the specified channel.",
+                "en-US": "Makes a suggestion in the specified channel.",
+                "fr": "Fait une suggestion dans le canal spécifié.",
+                "ru": "Создает предложение в указанном ."
+            },
+            "arguments": {
+                "title": {
+                    "description": {
+                        "en-GB": "The title of a suggestion.",
+                        "en-US": "The title of a suggestion.",
+                        "fr": "Le titre de la suggestion.",
+                        "ru": "Заголовок предложения."
+                    }
+                },
+                "suggestion": {
+                    "description": {
+                        "en-GB": "The theme of a suggestion.",
+                        "en-US": "The theme of a suggestion.",
+                        "fr": "Le thème de la suggestion.",
+                        "ru": "Тема предложения."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
+    "user-verify": {
+        "settings": {
+            "enable": [
+                {
+                    "manage_guild": true
+                },
+                "Moderator"
+            ],
+            "disable": [
+                {
+                    "manage_guild": true
+                },
+                "Moderator"
+            ]
+        },
+        "replies": {
+            "description": ""
+        },
+        "subcommands": {
+            "disable": {
+                "description": {
+                    "en-GB": "Disables verify system.",
+                    "en-US": "Disables verify system.",
+                    "fr": "Désactiver le system de vérification.",
+                    "ru": "Выключает систему верификации."
+                },
+                "arguments": {}
+            },
+            "enable": {
+                "description": {
+                    "en-GB": "Enables verify system.",
+                    "en-US": "Enables verify system.",
+                    "fr": "Activer le system de vérification.",
+                    "ru": "Включает систему верификации."
+                },
+                "arguments": {
+                    "channel": {
+                        "description": {
+                            "en-GB": "The channel where an user should write verify.",
+                            "en-US": "The channel where an user should write verify.",
+                            "fr": "Le canal ou l'utilisateur doit écrire pour vérifier.",
+                            "ru": "Канал, в котором пользователь должен написать verify."
+                        }
+                    },
+                    "role": {
+                        "description": {
+                            "en-GB": "The role that an user will get after verification.",
+                            "en-US": "The role that an user will get after verification.",
+                            "fr": "Le rôle que l'utilisateur va recevoir après la vérification.",
+                            "ru": "Роль, которую получить пользователь после верификации."
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "welcome-message": {
+        "settings": {
+            "permissions": [
+                {
+                    "manage_guild": true
+                }
+            ],
+            "enable": [
+                {
+                    "manage_guild": true
+                }
+            ],
+            "disable": [
+                {
+                    "manage_guild": true
+                }
+            ]
+        },
+        "replies": {
+            "description": ""
+        },
+        "subcommands": {
+            "enable": {
+                "description": {
+                    "en-GB": "Enables welcome message.",
+                    "en-US": "Enables welcome message.",
+                    "fr": "Activer le message de bienvenue.",
+                    "ru": "Включает welcome message."
+                },
+                "arguments": {
+                    "message": {
+                        "description": {
+                            "en-GB": "The message that will be sent when an user joins the server.",
+                            "en-US": "The message that will be sent when an user joins the server.",
+                            "fr": "Le message qui sera envoyé lorsque l'utilisateur rejoindra le serveur.",
+                            "ru": "Сообщение, которое будет отправлено, когда пользователь заходит на сервер."
+                        }
+                    },
+                    "channel": {
+                        "description": {
+                            "en-GB": "The channel where a welcome message will be sent. Leave it blank to send in dm.",
+                            "en-US": "The channel where a welcome message will be sent. Leave it blank to send in dm.",
+                            "fr": "Le canal ou le message de bienvenue sera envoyé. Laissez-le vide pour envoyer en dm.",
+                            "ru": "Канал, где приветственное сообщение будет отправлено. Оставьте поле пустым для отправки в лс."
+                        }
+                    }
+                }
+            },
+            "disable": {
+                "description": {
+                    "en-GB": "Disables welcome message.",
+                    "en-US": "Disables welcome message.",
+                    "fr": "Désactiver le message de bienvenue.",
+                    "ru": "Выключает welcome message."
+                },
+                "arguments": {}
+            }
+        }
+    }
+}
