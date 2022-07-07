@@ -1,0 +1,15 @@
+{
+    "settings": {
+        "permissions": []
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Minesweeper game.",
+            "en-US": "Minesweeper game.",
+            "fr": "Le démineur.",
+            "ru": "Игра Сапёр."
+        },
+        "arguments": {}
+    },
+    "subcommands": {}
+}

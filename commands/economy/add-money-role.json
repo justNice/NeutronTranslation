@@ -1,0 +1,45 @@
+{
+    "settings": {
+        "permissions": [
+            {
+                "manage_guild": true
+            },
+            "Bot Commander"
+        ]
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Adds money to user's with specified role.",
+            "en-US": "Adds money to role with specified role.",
+            "fr": "Ajoute de l'argent aux utilisateurs avec le rôle spécifié.",
+            "ru": "Выдает деньги пользователям с указанной ролью."
+        },
+        "arguments": {
+            "role": {
+                "description": {
+                    "en-GB": "The role that will get money.",
+                    "en-US": "The role that will get money.",
+                    "fr": "Un rôle dont les participants recevront de l'argent.",
+                    "ru": "Роль, пользователи которой получат деньги."
+                }
+            },
+            "amount": {
+                "description": {
+                    "en-GB": "How much money you wanna add.",
+                    "en-US": "How much money you wanna add.",
+                    "fr": "Le montant que vous voulez ajouter.",
+                    "ru": "Сколько денег вы хотите выдать."
+                }
+            },
+            "place": {
+                "description": {
+                    "en-GB": "The place where you wanna add money(cash or bank). By default - bank.",
+                    "en-US": "The place where you wanna add money(cash or bank). By default - bank.",
+                    "fr": "L'emplacement où vous voulez ajouter l'argent(cash ou bank). Par défaut - bank.",
+                    "ru": "Место, куда вы хотите выдать деньги(cash или bank). По умолчанию - bank."
+                }
+            }
+        }
+    },
+    "subcommands": {}
+}

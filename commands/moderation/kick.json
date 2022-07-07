@@ -1,0 +1,37 @@
+{
+    "settings": {
+        "permissions": [
+            {
+                "kick_members": true
+            },
+            "Moderator"
+        ]
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Kick user from the server.",
+            "en-US": "Kick user from the server.",
+            "fr": "Kick un utilisateur pour le serveur.",
+            "ru": "Кикает пользователя с сервера."
+        },
+        "arguments": {
+            "user": {
+                "description": {
+                    "en-GB": "The user you wanna kick.",
+                    "en-US": "The user you wanna kick.",
+                    "fr": "L'utilisateur que vous voulez Kick.",
+                    "ru": "Пользователь, которого вы хотите кикнуть."
+                }
+            },
+            "reason": {
+                "description": {
+                    "en-GB": "The reason of the kick.",
+                    "en-US": "The reason of the kick.",
+                    "fr": "La raison du kick.",
+                    "ru": "Причина кика."
+                }
+            }
+        }
+    },
+    "subcommands": {}
+}

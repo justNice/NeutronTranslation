@@ -1,0 +1,20 @@
+{
+    "settings": {
+        "permissions": [
+            {
+                "manage_guild": true
+            },
+            "Bot Commander"
+        ]
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Resets everyone's inventory.",
+            "en-US": "Resets everyone's inventory.",
+            "fr": "Réinitialiser l'inventaire de tout le monde.",
+            "ru": "Сбрасывает инвентари всех пользователей."
+        },
+        "arguments": {}
+    },
+    "subcommands": {}
+}

@@ -1,0 +1,15 @@
+{
+    "settings": {
+        "permissions": []
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Shows the leaderboard for the server.",
+            "en-US": "Shows the leaderboard for the server.",
+            "fr": "Montrez le classement du serveur.",
+            "ru": "Показывает таблицу лидеров для сервера."
+        },
+        "arguments": {}
+    },
+    "subcommands": {}
+}

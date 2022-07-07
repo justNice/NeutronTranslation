@@ -1,0 +1,24 @@
+{
+    "settings": {
+        "permissions": []
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Withdraws money from your bank.",
+            "en-US": "Withdraws money from your bank.",
+            "fr": "Retirer de l'argent de votre bank.",
+            "ru": "Выводит на счет деньги из вашего банка."
+        },
+        "arguments": {
+            "amount": {
+                "description": {
+                    "en-GB": "Amount of money you wanna withdraw. Leave it blank to withdraw all.",
+                    "en-US": "Amount of money you wanna withdraw. Leave it blank to withdraw all.",
+                    "fr": "La quantité d'argent que vous voulez retirer. Laisser vide pour retirer tout.",
+                    "ru": "Количество денег для вывода. Оставьте поле пустым, чтобы вывести все."
+                }
+            }
+        }
+    },
+    "subcommands": {}
+}

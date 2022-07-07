@@ -1,0 +1,29 @@
+{
+    "settings": {
+        "permissions": [
+            {
+                "manage_guild": true
+            },
+            "Bot Commander"
+        ]
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Deletes an item from the shop.",
+            "en-US": "Deletes an item from the shop.",
+            "fr": "Retirer un objet du magasin",
+            "ru": "Удаляет предмет из магазина."
+        },
+        "arguments": {
+            "item": {
+                "description": {
+                    "en-GB": "The name of an item you wanna delete.",
+                    "en-US": "The name of an item you wanna delete.",
+                    "fr": "Le nom de l'objet que vous voulez retirer.",
+                    "ru": "Название предмета, который вы хотите удалить."
+                }
+            }
+        }
+    },
+    "subcommands": {}
+}

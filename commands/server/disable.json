@@ -1,0 +1,28 @@
+{
+    "settings": {
+        "permissions": [
+            {
+                "manage_guild": true
+            }
+        ]
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Disables command or module.",
+            "en-US": "Disables command or module.",
+            "fr": "Désactiver une commande ou un module.",
+            "ru": "Выключает команду или модуль."
+        },
+        "arguments": {
+            "command": {
+                "description": {
+                    "en-GB": "The name of a command you wanna disable. Subcommand example: exp_amount.max",
+                    "en-US": "The name of a command you wanna disable. Subcommand example: exp_amount.max",
+                    "fr": "Nom de la commande que vous voulez désactiver. Exemple de sous-commande: exp_amount.max",
+                    "ru": "Название команды, которую вы хотите выключить. Пример подкоманды: exp_amount.max"
+                }
+            }
+        }
+    },
+    "subcommands": {}
+}

@@ -1,0 +1,32 @@
+{
+    "settings": {
+        "permissions": []
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Sells item for 60% of item value.",
+            "en-US": "Sells item for 60% of item value.",
+            "fr": "Vendre un objet pour 60% sa valeur.",
+            "ru": "Продает предмет за 60% от цены этого предмета."
+        },
+        "arguments": {
+            "item": {
+                "description": {
+                    "en-GB": "A name of the item you wanna sell.",
+                    "en-US": "A name of the item you wanna sell.",
+                    "fr": "Le nom de l'objet que vous voulez vendre.",
+                    "ru": "Название предмета, который вы хотите продать."
+                }
+            },
+            "quantity": {
+                "description": {
+                    "en-GB": "Quantity of item you wanna sell.",
+                    "en-US": "Quantity of item you wanna sell.",
+                    "fr": "La quantité d'objets que vous voulez vendre.",
+                    "ru": "Количество предмета, которое вы хотите продать."
+                }
+            }
+        }
+    },
+    "subcommands": {}
+}

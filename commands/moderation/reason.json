@@ -1,0 +1,37 @@
+{
+    "settings": {
+        "permissions": [
+            {
+                "kick_members": true
+            },
+            "Moderator"
+        ]
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Edits reason for case.",
+            "en-US": "Edits reason for case.",
+            "fr": "Modifier la raison du cas.",
+            "ru": "Изменяет причину для случая."
+        },
+        "arguments": {
+            "case": {
+                "description": {
+                    "en-GB": "The case whose reason you wanna edit.",
+                    "en-US": "The case whose reason you wanna edit.",
+                    "fr": "Le cas dont vous voulez changer la raison.",
+                    "ru": "Случай, чью причину вы хотите изменить."
+                }
+            },
+            "reason": {
+                "description": {
+                    "en-GB": "The reason you wanna set.",
+                    "en-US": "The reason you wanna set.",
+                    "fr": "La raison que vous voulez mettre.",
+                    "ru": "Причина, которую вы хотите поставить."
+                }
+            }
+        }
+    },
+    "subcommands": {}
+}

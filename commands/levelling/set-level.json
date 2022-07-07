@@ -1,0 +1,37 @@
+{
+    "settings": {
+        "permissions": [
+            {
+                "manage_guild": true
+            },
+            "Bot Commander"
+        ]
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Sets level for an user.",
+            "en-US": "Sets level for an user.",
+            "fr": "Mettre le niveau de l'utilisateur.",
+            "ru": "Устанавливает уровень пользователю."
+        },
+        "arguments": {
+            "user": {
+                "description": {
+                    "en-GB": "The user whose level you wanna set.",
+                    "en-US": "The user whose level you wanna set.",
+                    "fr": "L'utilisateur auquel vous voulez changer le niveau.",
+                    "ru": "Участник, чей уровень вы хотите установить."
+                }
+            },
+            "level": {
+                "description": {
+                    "en-GB": "The level which you wanna set.",
+                    "en-US": "The level which you wanna set.",
+                    "fr": "Le niveau que vous voulez mettre.",
+                    "ru": "Уровень, который вы хотите установить."
+                }
+            }
+        }
+    },
+    "subcommands": {}
+}

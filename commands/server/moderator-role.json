@@ -1,0 +1,48 @@
+{
+    "settings": {
+        "enable": [
+            {
+                "manage_guild": true
+            },
+            "Moderator"
+        ],
+        "disable": [
+            {
+                "manage_guild": true
+            },
+            "Moderator"
+        ]
+    },
+    "replies": {
+        "description": ""
+    },
+    "subcommands": {
+        "enable": {
+            "description": {
+                "en-GB": "Enables the moderator role.",
+                "en-US": "Enables the moderator role.",
+                "fr": "Activer le rôle modérateur.",
+                "ru": "Включает роль модератора."
+            },
+            "arguments": {
+                "role": {
+                    "description": {
+                        "en-GB": "A role whose members will be able to use moderation commands.",
+                        "en-US": "A role whose members will be able to use moderation commands.",
+                        "fr": "Un rôle dont les membres pourront utiliser les commandes de modération.",
+                        "ru": "Роль, участники которой смогут использовать команды модерации."
+                    }
+                }
+            }
+        },
+        "disable": {
+            "description": {
+                "en-GB": "Disables the moderator role.",
+                "en-US": "Disables the moderator role.",
+                "fr": "Désactiver le rôle modérateur.",
+                "ru": "Выключает роль модератора."
+            },
+            "arguments": {}
+        }
+    }
+}

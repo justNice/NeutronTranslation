@@ -1,0 +1,15 @@
+{
+    "settings": {
+        "permissions": []
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Sends stats for economy.",
+            "en-US": "Sends stats for economy.",
+            "fr": "Envoyer les statistiques d'economy",
+            "ru": "Отправляет статистику экономики."
+        },
+        "arguments": {}
+    },
+    "subcommands": {}
+}

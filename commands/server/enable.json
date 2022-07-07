@@ -1,0 +1,28 @@
+{
+    "settings": {
+        "permissions": [
+            {
+                "manage_guild": true
+            }
+        ]
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Enables command or module.",
+            "en-US": "Enables command or module.",
+            "fr": "Activer une commande ou un module.",
+            "ru": "Включает команду или модуль."
+        },
+        "arguments": {
+            "command": {
+                "description": {
+                    "en-GB": "The name of a command you wanna enable. Subcommand example: exp_amount.max",
+                    "en-US": "The name of a command you wanna enable. Subcommand example: exp_amount.max",
+                    "fr": "Nom de la commande que vous voulez activer. Exemple de sous-commande: exp_amount.max",
+                    "ru": "Название команды, которую вы хотите включить. Пример подкоманды: exp_amount.max"
+                }
+            }
+        }
+    },
+    "subcommands": {}
+}

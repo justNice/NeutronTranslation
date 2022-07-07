@@ -1,0 +1,54 @@
+{
+    "settings": {
+        "enable": [
+            {
+                "manage_guild": true
+            }
+        ],
+        "disable": [
+            {
+                "manage_guild": true
+            }
+        ]
+    },
+    "replies": {
+        "description": ""
+    },
+    "subcommands": {
+        "enable": {
+            "description": {
+                "en-GB": "Enables leave message.",
+                "en-US": "Enables leave message.",
+                "fr": "Activer les messages quand quelqu'un part.",
+                "ru": "Включает прощальное сообщение."
+            },
+            "arguments": {
+                "message": {
+                    "description": {
+                        "en-GB": "The message that will be sent when an user leaves the server.",
+                        "en-US": "The message that will be sent when an user leaves the server.",
+                        "fr": "Le message qui sera envoyé lorsqu'un utilisateur quittera le serveur.",
+                        "ru": "Сообщение, которое будет отправлено, когда пользователь уходит."
+                    }
+                },
+                "channel": {
+                    "description": {
+                        "en-GB": "The channel where a leave message will be sent. Leave it blank to send in dm.",
+                        "en-US": "The channel where a leave message will be sent. Leave it blank to send in dm.",
+                        "fr": "Le canal ou le message va être envoyé. Laissez-le vide pour envoyer en dm.",
+                        "ru": "Канал, где будет отправлено прощальное сообщение. Оставьте поле пустым для отправки в лс."
+                    }
+                }
+            }
+        },
+        "disable": {
+            "description": {
+                "en-GB": "Disables leave message.",
+                "en-US": "Disables leave message.",
+                "fr": "Désactiver message parti.",
+                "ru": "Выключает прощальное сообщение."
+            },
+            "arguments": {}
+        }
+    }
+}

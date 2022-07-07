@@ -1,0 +1,15 @@
+{
+    "settings": {
+        "permissions": []
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Flips coin.",
+            "en-US": "Flips coin.",
+            "fr": "Pile ou face.",
+            "ru": "Подбрасывает монетку."
+        },
+        "arguments": {}
+    },
+    "subcommands": {}
+}

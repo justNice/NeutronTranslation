@@ -1,0 +1,15 @@
+{
+    "settings": {
+        "permissions": []
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Sends links to vote for Neutron.",
+            "en-US": "Sends links to vote for Neutron.",
+            "fr": "Envoyer un lien pour voter pour Neutron.",
+            "ru": "Отправляет ссылки для голосования за Neutron."
+        },
+        "arguments": {}
+    },
+    "subcommands": {}
+}

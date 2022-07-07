@@ -1,0 +1,45 @@
+{
+    "settings": {
+        "permissions": [
+            {
+                "manage_channels": true
+            },
+            "Moderator"
+        ]
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Sets slowmode to the channel.",
+            "en-US": "Sets slowmode to the channel.",
+            "fr": "Activer le mode lent dans le canal.",
+            "ru": "Устанавливает слоу-мод для канала."
+        },
+        "arguments": {
+            "time": {
+                "description": {
+                    "en-GB": "The duration of a slowmode.",
+                    "en-US": "The duration of a slowmode.",
+                    "fr": "La durée d'un mode lent.",
+                    "ru": "Длительность медленного режима."
+                }
+            },
+            "time_unit": {
+                "description": {
+                    "en-GB": "The time_unit for duration.",
+                    "en-US": "The time_unit for duration.",
+                    "fr": "L'unité de temps.",
+                    "ru": "Временная единица для длительности."
+                }
+            },
+            "channel": {
+                "description": {
+                    "en-GB": "The channel where you wanna set slowmode.",
+                    "en-US": "The channel where you wanna set slowmode.",
+                    "fr": "Le canal sur lequel vous souhaitez définir le mode lent.",
+                    "ru": "Канал, где вы хотите установить медленный режим."
+                }
+            }
+        }
+    },
+    "subcommands": {}
+}

@@ -1,0 +1,24 @@
+{
+    "settings": {
+        "permissions": []
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Detects howgay is user.",
+            "en-US": "Detects howgay is user.",
+            "fr": "Détecter comment est gay l'utilisateur.",
+            "ru": "Определяет насколько пользователь гей."
+        },
+        "arguments": {
+            "user": {
+                "description": {
+                    "en-GB": "The user whose gay percent you wanna know. Leave it blank to get yours.",
+                    "en-US": "The user whose gay percent you wanna know. Leave it blank to get yours.",
+                    "fr": "L'utilisateur que vous voulez détecter. Laissez-le vide pour obtenir le vôtre.",
+                    "ru": "Пользователь, чей процент вы хотите знать. Оставьте поле пустым для получения своего."
+                }
+            }
+        }
+    },
+    "subcommands": {}
+}

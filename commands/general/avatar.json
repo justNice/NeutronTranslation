@@ -1,0 +1,24 @@
+{
+    "settings": {
+        "permissions": []
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Sends user's avatar.",
+            "en-US": "Sends user's avatar.",
+            "fr": "Envoyer l'avatar de l'utilisateur.",
+            "ru": "Отправляет аватар пользователя."
+        },
+        "arguments": {
+            "user": {
+                "description": {
+                    "en-GB": "The user whose avatar you wanna get. Leave it blank to get yours.",
+                    "en-US": "The user whose avatar you wanna get. Leave it blank to get yours.",
+                    "fr": "L'avatar de l'utilisateur que vous voulez avoir. Laissez-le vide pour voir le vôtre.",
+                    "ru": "Пользователь, чей аватар вы хочите получить. Оставьте поле пустым, чтобы получить свой."
+                }
+            }
+        }
+    },
+    "subcommands": {}
+}

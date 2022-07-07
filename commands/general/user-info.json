@@ -1,0 +1,24 @@
+{
+    "settings": {
+        "permissions": []
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Sends user information.",
+            "en-US": "Sends user information.",
+            "fr": "Envoyer les informations de l'utilisateur.",
+            "ru": "Отправляет информацию о пользователе."
+        },
+        "arguments": {
+            "user": {
+                "description": {
+                    "en-GB": "The user whose information you wanna get.",
+                    "en-US": "The user whose information you wanna get.",
+                    "fr": "L'utilisateur auquel vous voulez savoir les informations.",
+                    "ru": "Пользователь, информация которого вы хотите получить."
+                }
+            }
+        }
+    },
+    "subcommands": {}
+}

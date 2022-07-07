@@ -1,0 +1,37 @@
+{
+    "settings": {
+        "permissions": [
+            {
+                "kick_members": true
+            },
+            "Moderator"
+        ]
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Warns user.",
+            "en-US": "Warns user.",
+            "fr": "Advertir un utilisateur.",
+            "ru": "Предупреждает пользователя."
+        },
+        "arguments": {
+            "user": {
+                "description": {
+                    "en-GB": "The user you wanna warn.",
+                    "en-US": "The user you wanna warn.",
+                    "fr": "L'utilisateur que vous voulez advertir.",
+                    "ru": "Пользователь, которого вы хотите предупредить."
+                }
+            },
+            "reason": {
+                "description": {
+                    "en-GB": "The reason of the warn.",
+                    "en-US": "The reason of the warn.",
+                    "fr": "La raison de l'advertissement",
+                    "ru": "Причина предупреждения."
+                }
+            }
+        }
+    },
+    "subcommands": {}
+}

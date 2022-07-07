@@ -1,0 +1,101 @@
+{
+    "settings": {
+        "permissions": [
+            {
+                "manage_messages": true
+            },
+            "Moderator"
+        ]
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Clears the current chat.",
+            "en-US": "Clears the current chat.",
+            "fr": "Supprimer le chat.",
+            "ru": "Очищает текущий чат."
+        },
+        "arguments": {
+            "quantity": {
+                "description": {
+                    "en-GB": "The quantity of messages.",
+                    "en-US": "The quantityh of messages.",
+                    "fr": "La quantité de messages.",
+                    "ru": "Количество сообщений."
+                }
+            },
+            "user": {
+                "description": {
+                    "en-GB": "The user whose messages you wanna clear.",
+                    "en-US": "The user whose messages you wanna clear.",
+                    "fr": "L'utilisateur dont vous voulez supprimer les messages.",
+                    "ru": "Пользователь, чьи сообщения вы хотите очистить."
+                }
+            },
+            "bot": {
+                "description": {
+                    "en-GB": "The filter that deletes only bots' messages.",
+                    "en-US": "The filter that deletes only bots' messages.",
+                    "fr": "Le filtre qui supprime seulement les messages des robots.",
+                    "ru": "Фильтр, который удаляет только сообщения ботов."
+                }
+            },
+            "links": {
+                "description": {
+                    "en-GB": "The filter that deletes messages with links.",
+                    "en-US": "The filter that deletes messages with links.",
+                    "fr": "Le filtre qui supprime seulement les liens.",
+                    "ru": "Фильтр, который удаляет только сообщения с ссылками."
+                }
+            },
+            "invites": {
+                "description": {
+                    "en-GB": "The filter that deletes only messages with invites.",
+                    "en-US": "The filter that deletes only messages with invites.",
+                    "fr": "Le filtre qui supprime seulement les messages qui contiennent invitations.",
+                    "ru": "Фильтр, который удаляет только сообщения с приглашениями."
+                }
+            },
+            "embeds": {
+                "description": {
+                    "en-GB": "The filter that deletes messages with embeds.",
+                    "en-US": "The filter that deletes messages with embeds.",
+                    "fr": "Le filtre qui supprime seulement les messages avec des embeds.",
+                    "ru": "Фильтр, который удаляет только сообщения с эмбедами."
+                }
+            },
+            "images": {
+                "description": {
+                    "en-GB": "The filter that deletes messages with images.",
+                    "en-US": "The filter that deletes messages with images.",
+                    "fr": "Le filtre qui supprime seulement les messages avec des images.",
+                    "ru": "Фильтр, который удаляет только сообщения с картинками."
+                }
+            },
+            "files": {
+                "description": {
+                    "en-GB": "The filter that deletes only messages with files.",
+                    "en-US": "The filter that deletes only messages with files.",
+                    "fr": "Le filtre qui supprime seulement les messages avec des fichiers.",
+                    "ru": "Фильтр, который удаляет только сообщения с файлами."
+                }
+            },
+            "mentions": {
+                "description": {
+                    "en-GB": "The filter that deletes messages with mentions.",
+                    "en-US": "The filter that deletes messages with mentions.",
+                    "fr": "Le filtre qui supprime seulement les messages avec des mentions.",
+                    "ru": "Фильтр, который удаляет только сообщения с упоминаниями."
+                }
+            },
+            "pins": {
+                "description": {
+                    "en-GB": "The filter that deletes pinned messages.",
+                    "en-US": "The filter that deletes pinned messages.",
+                    "fr": "Le filtre qui supprime seulement les messages pinger.",
+                    "ru": "Фильтр, который позволяет удалять закрепленные сообщения."
+                }
+            }
+        }
+    },
+    "subcommands": {}
+}

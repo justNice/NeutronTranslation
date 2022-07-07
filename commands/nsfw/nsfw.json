@@ -1,0 +1,109 @@
+{
+    "settings": {
+        "neko": [],
+        "hentai": [],
+        "tentacle": [],
+        "hboobs": [],
+        "hass": [],
+        "boobs": [],
+        "anal": [],
+        "pussy": [],
+        "ass": [],
+        "4k": []
+    },
+    "replies": {
+        "description": ""
+    },
+    "subcommands": {
+        "4k": {
+            "description": {
+                "en-GB": "NSFW Image.",
+                "en-US": "NSFW Image.",
+                "fr": "NSFW Image.",
+                "ru": "NSFW Картинка."
+            },
+            "arguments": {}
+        },
+        "anal": {
+            "description": {
+                "en-GB": "NSFW Image.",
+                "en-US": "NSFW Image.",
+                "fr": "NSFW Image.",
+                "ru": "NSFW Картинка."
+            },
+            "arguments": {}
+        },
+        "ass": {
+            "description": {
+                "en-GB": "NSFW Image.",
+                "en-US": "NSFW Image.",
+                "fr": "NSFW Image.",
+                "ru": "NSFW Картинка."
+            },
+            "arguments": {}
+        },
+        "boobs": {
+            "description": {
+                "en-GB": "NSFW Image.",
+                "en-US": "NSFW Image.",
+                "fr": "NSFW Image.",
+                "ru": "NSFW Картинка."
+            },
+            "arguments": {}
+        },
+        "hass": {
+            "description": {
+                "en-GB": "NSFW Image.",
+                "en-US": "NSFW Image.",
+                "fr": "NSFW Image.",
+                "ru": "NSFW Картинка."
+            },
+            "arguments": {}
+        },
+        "hboobs": {
+            "description": {
+                "en-GB": "NSFW Image.",
+                "en-US": "NSFW Image.",
+                "fr": "NSFW Image.",
+                "ru": "NSFW Картинка."
+            },
+            "arguments": {}
+        },
+        "hentai": {
+            "description": {
+                "en-GB": "NSFW Image.",
+                "en-US": "NSFW Image.",
+                "fr": "NSFW Image.",
+                "ru": "NSFW Картинка."
+            },
+            "arguments": {}
+        },
+        "neko": {
+            "description": {
+                "en-GB": "NSFW Image.",
+                "en-US": "NSFW Image.",
+                "fr": "NSFW Image.",
+                "ru": "NSFW Картинка."
+            },
+            "arguments": {}
+        },
+        "pussy": {
+            "description": {
+                "en-GB": "NSFW Image.",
+                "en-US": "NSFW Image.",
+                "fr": "NSFW Image.",
+                "ru": "NSFW Картинка."
+            },
+            "arguments": {}
+        },
+        "tentacle": {
+            "description": {
+                "en-GB": "NSFW Image.",
+                "en-US": "NSFW Image.",
+                "fr": "NSFW Image.",
+                "ru": "NSFW Картинка."
+            },
+            "arguments": {}
+        }
+    }
+}

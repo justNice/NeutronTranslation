@@ -1,0 +1,24 @@
+{
+    "settings": {
+        "permissions": []
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Sends details of user's punishment.",
+            "en-US": "Sends details of user's punishment.",
+            "fr": "Envoie les détails de la punition de l'utilisateur.",
+            "ru": "Отправляет информацию о нарушении пользователя."
+        },
+        "arguments": {
+            "case": {
+                "description": {
+                    "en-GB": "The case you wanna see.",
+                    "en-US": "The case you wanna see.",
+                    "fr": "Le cas que vous voulez voir.",
+                    "ru": "Случай, который вы хотите посмотреть."
+                }
+            }
+        }
+    },
+    "subcommands": {}
+}

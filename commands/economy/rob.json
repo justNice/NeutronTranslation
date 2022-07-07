@@ -1,0 +1,24 @@
+{
+    "settings": {
+        "permissions": []
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Robs another user with a chance.",
+            "en-US": "Robs another user with a chance.",
+            "fr": "Vole un autre utilisateur avec une chance.",
+            "ru": "Грабит другого пользователя с шансом."
+        },
+        "arguments": {
+            "user": {
+                "description": {
+                    "en-GB": "user who you wanna rob.",
+                    "en-US": "User you wanna rob.",
+                    "fr": "L'utilisateur que vous voulez voler",
+                    "ru": "Пользователь, которого вы хотите ограбить."
+                }
+            }
+        }
+    },
+    "subcommands": {}
+}

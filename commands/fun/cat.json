@@ -1,0 +1,15 @@
+{
+    "settings": {
+        "permissions": []
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Sends cat's picture.",
+            "en-US": "Sends cat's picture.",
+            "fr": "Envoyer une photo de chat.",
+            "ru": "Отправляет картинку кота."
+        },
+        "arguments": {}
+    },
+    "subcommands": {}
+}

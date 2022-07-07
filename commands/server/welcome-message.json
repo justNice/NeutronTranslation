@@ -1,0 +1,59 @@
+{
+    "settings": {
+        "permissions": [
+            {
+                "manage_guild": true
+            }
+        ],
+        "enable": [
+            {
+                "manage_guild": true
+            }
+        ],
+        "disable": [
+            {
+                "manage_guild": true
+            }
+        ]
+    },
+    "replies": {
+        "description": ""
+    },
+    "subcommands": {
+        "enable": {
+            "description": {
+                "en-GB": "Enables welcome message.",
+                "en-US": "Enables welcome message.",
+                "fr": "Activer le message de bienvenue.",
+                "ru": "Включает welcome message."
+            },
+            "arguments": {
+                "message": {
+                    "description": {
+                        "en-GB": "The message that will be sent when an user joins the server.",
+                        "en-US": "The message that will be sent when an user joins the server.",
+                        "fr": "Le message qui sera envoyé lorsque l'utilisateur rejoindra le serveur.",
+                        "ru": "Сообщение, которое будет отправлено, когда пользователь заходит на сервер."
+                    }
+                },
+                "channel": {
+                    "description": {
+                        "en-GB": "The channel where a welcome message will be sent. Leave it blank to send in dm.",
+                        "en-US": "The channel where a welcome message will be sent. Leave it blank to send in dm.",
+                        "fr": "Le canal ou le message de bienvenue sera envoyé. Laissez-le vide pour envoyer en dm.",
+                        "ru": "Канал, где приветственное сообщение будет отправлено. Оставьте поле пустым для отправки в лс."
+                    }
+                }
+            }
+        },
+        "disable": {
+            "description": {
+                "en-GB": "Disables welcome message.",
+                "en-US": "Disables welcome message.",
+                "fr": "Désactiver le message de bienvenue.",
+                "ru": "Выключает welcome message."
+            },
+            "arguments": {}
+        }
+    }
+}

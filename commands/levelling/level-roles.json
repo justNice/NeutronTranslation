@@ -1,0 +1,75 @@
+{
+    "settings": {
+        "add": [
+            {
+                "manage_guild": true
+            },
+            "Bot Commander"
+        ],
+        "remove": [
+            {
+                "manage_guild": true
+            },
+            "Bot Commander"
+        ],
+        "list": []
+    },
+    "replies": {
+        "description": ""
+    },
+    "subcommands": {
+        "add": {
+            "description": {
+                "en-GB": "Adds role to level-roles.",
+                "en-US": "Adds role to level-roles.",
+                "fr": "Ajouter des rôles à level-rôle.",
+                "ru": "Добавляет роль в level-roles."
+            },
+            "arguments": {
+                "role": {
+                    "description": {
+                        "en-GB": "The role that an user will receive after reaching a certain level.",
+                        "en-US": "The role that an user will receive after reaching a certain level.",
+                        "fr": "Le rôle qu'un utilisateur obtiendra après avoir atteint un certain niveau.",
+                        "ru": "Роль, которую будет получать пользователь после достижения определенного уровня."
+                    }
+                },
+                "level": {
+                    "description": {
+                        "en-GB": "The level that required to receive the role.",
+                        "en-US": "The level that required to receive the role.",
+                        "fr": "Le niveau requis pour avoir le rôle.",
+                        "ru": "Уровень, необходимый для получения роли."
+                    }
+                }
+            }
+        },
+        "remove": {
+            "description": {
+                "en-GB": "Removes role from level-roles.",
+                "en-US": "Removes role from level-roles.",
+                "fr": "Retirer un rôle de level-rôles.",
+                "ru": "Удаляет роль из level-roles."
+            },
+            "arguments": {
+                "role": {
+                    "description": {
+                        "en-GB": "The role that the user will no longer receive after reaching a certain level.",
+                        "en-US": "The role that the user will no longer receive after reaching a certain level.",
+                        "fr": "Le rôle que l'utilisateur ne recevra plus après avoir atteint un certain niveau.",
+                        "ru": "Роль, которую пользователь перестанет получать после достижения определенного уровня."
+                    }
+                }
+            }
+        },
+        "list": {
+            "description": {
+                "en-GB": "Sends list of level-roles.",
+                "en-US": "Sends list of level-roles.",
+                "fr": "Envoyer la liste de level-rôles.",
+                "ru": "Отправляет список level-roles."
+            },
+            "arguments": {}
+        }
+    }
+}

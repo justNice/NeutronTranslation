@@ -1,0 +1,24 @@
+{
+    "settings": {
+        "permissions": []
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Sends role information.",
+            "en-US": "Sends role information.",
+            "fr": "Envoyer les informations d'un rôle.",
+            "ru": "Отправляет информацию о роли."
+        },
+        "arguments": {
+            "role": {
+                "description": {
+                    "en-GB": "The role whose information you wanna get.",
+                    "en-US": "The role whose information you wanna get.",
+                    "fr": "Le rôle auquel vous voulez savoir les informations.",
+                    "ru": "Роль, информацию которой вы хотите посмотреть."
+                }
+            }
+        }
+    },
+    "subcommands": {}
+}

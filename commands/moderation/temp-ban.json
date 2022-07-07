@@ -1,0 +1,61 @@
+{
+    "settings": {
+        "permissions": [
+            {
+                "ban_users": true
+            },
+            "Moderator"
+        ]
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Temporarily bans an user.",
+            "en-US": "Temporarily bans an user.",
+            "fr": "Bannir un utilisateur de façon temporaire.",
+            "ru": "Временно банит пользователя."
+        },
+        "arguments": {
+            "user": {
+                "description": {
+                    "en-GB": "The user you wanna ban.",
+                    "en-US": "The user you wanna ban.",
+                    "fr": "L'utilisateur que vous voulez bannir.",
+                    "ru": "Пользователь, которого вы хотите забанить."
+                }
+            },
+            "time": {
+                "description": {
+                    "en-GB": "The duration of the ban.",
+                    "en-US": "The duration of the ban.",
+                    "fr": "La duration du bannissement.",
+                    "ru": "Длительность бана."
+                }
+            },
+            "time_unit": {
+                "description": {
+                    "en-GB": "The time_unit of the duration.",
+                    "en-US": "The time_unit of the duration.",
+                    "fr": "L'unité de temps.",
+                    "ru": "Временная единица длительности."
+                }
+            },
+            "days_delete": {
+                "description": {
+                    "en-GB": "How old will the user's messages be deleted.",
+                    "en-US": "How old will the user's messages be deleted.",
+                    "fr": "Quel âge les messages de l'utilisateur seront-ils supprimés.",
+                    "ru": "Какой давности сообщения пользователя будут удалены."
+                }
+            },
+            "reason": {
+                "description": {
+                    "en-GB": "The reason of the ban.",
+                    "en-US": "The reason of the ban.",
+                    "fr": "La raison du bannissement.",
+                    "ru": "Причина бана."
+                }
+            }
+        }
+    },
+    "subcommands": {}
+}

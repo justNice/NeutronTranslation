@@ -1,0 +1,45 @@
+{
+    "settings": {
+        "permissions": [
+            {
+                "manage_guild": true
+            },
+            "Moderator"
+        ]
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Permanently bans an user.",
+            "en-US": "Permanently bans an user.",
+            "fr": "Bannir quelqu'un de façon permanente.",
+            "ru": "Банит пользователя навсегда."
+        },
+        "arguments": {
+            "user": {
+                "description": {
+                    "en-GB": "The user you wanna ban.",
+                    "en-US": "The user you wanna ban.",
+                    "fr": "L'utilisateur que vous voulez bannir.",
+                    "ru": "Пользователь, которого вы хотите забанить."
+                }
+            },
+            "days_delete": {
+                "description": {
+                    "en-GB": "How old will the user's messages be deleted.",
+                    "en-US": "How old will the user's messages be deleted.",
+                    "fr": "Quel âge les messages de l'utilisateur seront-ils supprimés.",
+                    "ru": "Какой давности сообщения пользователя будут удалены."
+                }
+            },
+            "reason": {
+                "description": {
+                    "en-GB": "The reason of the ban.",
+                    "en-US": "The reason of the ban.",
+                    "fr": "La raison du ban.",
+                    "ru": "Причина бана."
+                }
+            }
+        }
+    },
+    "subcommands": {}
+}

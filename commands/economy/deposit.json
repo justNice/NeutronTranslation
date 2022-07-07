@@ -1,0 +1,24 @@
+{
+    "settings": {
+        "permissions": []
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Deposits money to your bank.",
+            "en-US": "Deposits money to your bank.",
+            "fr": "Déposer de l'argent dans votre bank.",
+            "ru": "Вкладывает деньги в банк."
+        },
+        "arguments": {
+            "amount": {
+                "description": {
+                    "en-GB": "Amount of money you wanna deposit. Leave it blank to deposit all.",
+                    "en-US": "Amount of money you wanna deposit. Leave it blank to deposit all.",
+                    "fr": "La quantité d'argent que vous voulez déposer. Laissé le vide pour déposer tout.",
+                    "ru": "Количество денег, которые вы хотите вложить в банк. Оставьте поле пустым, чтобы положить все."
+                }
+            }
+        }
+    },
+    "subcommands": {}
+}

@@ -1,0 +1,32 @@
+{
+    "settings": {
+        "permissions": []
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Makes a suggestion in the specified channel.",
+            "en-US": "Makes a suggestion in the specified channel.",
+            "fr": "Fait une suggestion dans le canal spécifié.",
+            "ru": "Создает предложение в указанном ."
+        },
+        "arguments": {
+            "title": {
+                "description": {
+                    "en-GB": "The title of a suggestion.",
+                    "en-US": "The title of a suggestion.",
+                    "fr": "Le titre de la suggestion.",
+                    "ru": "Заголовок предложения."
+                }
+            },
+            "suggestion": {
+                "description": {
+                    "en-GB": "The theme of a suggestion.",
+                    "en-US": "The theme of a suggestion.",
+                    "fr": "Le thème de la suggestion.",
+                    "ru": "Тема предложения."
+                }
+            }
+        }
+    },
+    "subcommands": {}
+}

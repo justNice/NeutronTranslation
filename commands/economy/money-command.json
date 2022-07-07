@@ -1,0 +1,59 @@
+{
+    "settings": {
+        "work": [],
+        "crime": [],
+        "treasurehunt": [],
+        "beg": [],
+        "fish": []
+    },
+    "replies": {
+        "description": ""
+    },
+    "subcommands": {
+        "work": {
+            "description": {
+                "en-GB": "Command that gives you money.",
+                "en-US": "Command that gives you money.",
+                "fr": "Commande qui vous donnes de l'argent.",
+                "ru": "Команда, которая дает вам деньги."
+            },
+            "arguments": {}
+        },
+        "crime": {
+            "description": {
+                "en-GB": "Command that gives you money.",
+                "en-US": "Command that gives you money.",
+                "fr": "Command qui vous donnes de l'argent.",
+                "ru": "Команда, которая дает вам деньги."
+            },
+            "arguments": {}
+        },
+        "treasurehunt": {
+            "description": {
+                "en-GB": "Command that gives you money.",
+                "en-US": "Command that gives you money.",
+                "fr": "Command qui vous donnes de l'argent.",
+                "ru": "Команда, которая дает вам деньги."
+            },
+            "arguments": {}
+        },
+        "beg": {
+            "description": {
+                "en-GB": "Command that gives you money.",
+                "en-US": "Command that gives you money.",
+                "fr": "Command qui vous donnes de l'argent.",
+                "ru": "Команда, которая дает вам деньги."
+            },
+            "arguments": {}
+        },
+        "fish": {
+            "description": {
+                "en-GB": "Command that gives you money.",
+                "en-US": "Command that gives you money.",
+                "fr": "Command qui vous donnes de l'argent..",
+                "ru": "Команда, которая дает вам деньги."
+            },
+            "arguments": {}
+        }
+    }
+}

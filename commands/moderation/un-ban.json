@@ -1,0 +1,29 @@
+{
+    "settings": {
+        "permissions": [
+            {
+                "ban_users": true
+            },
+            "Moderator"
+        ]
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Unbans user.",
+            "en-US": "Unbans user.",
+            "fr": "Débannir un utilisateur.",
+            "ru": "Разбанивает пользователя."
+        },
+        "arguments": {
+            "user": {
+                "description": {
+                    "en-GB": "The user you wanna unban.",
+                    "en-US": "The user you wanna unban.",
+                    "fr": "L'utilisateur que vous voulez debannir.",
+                    "ru": "Пользователь, которого вы хотите разбанить."
+                }
+            }
+        }
+    },
+    "subcommands": {}
+}

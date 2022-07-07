@@ -1,0 +1,65 @@
+{
+    "settings": {
+        "add": [
+            {
+                "manage_guild": true
+            }
+        ],
+        "remove": [
+            {
+                "manage_guild": true
+            }
+        ],
+        "list": []
+    },
+    "replies": {
+        "description": ""
+    },
+    "subcommands": {
+        "add": {
+            "description": {
+                "en-GB": "Adds a role to auto-roles.",
+                "en-US": "Adds a role to auto-roles.",
+                "fr": "Ajouter le role de auto-roles.",
+                "ru": "Добавляет роль в auto-roles."
+            },
+            "arguments": {
+                "role": {
+                    "description": {
+                        "en-GB": "The role that an user will receive when joining the server.",
+                        "en-US": "The role that an user will receive when joining the server.",
+                        "fr": "Le rôle qu'un utilisateur recevra lorsqu'il rejoindra le serveur.",
+                        "ru": "Роль, которую будет получать пользователь при присоединении на сервер."
+                    }
+                }
+            }
+        },
+        "remove": {
+            "description": {
+                "en-GB": "Removes the role from auto-roles.",
+                "en-US": "Removes the role from auto-roles.",
+                "fr": "Retirer le rôle de auto-roles.",
+                "ru": "Удаляет роль из auto-roles."
+            },
+            "arguments": {
+                "role": {
+                    "description": {
+                        "en-GB": "The role that an user will no longer receive when joining the server.",
+                        "en-US": "The role that an user will no longer receive when joining the server.",
+                        "fr": "Le rôle qu'un utilisateur ne recevra plus lorsqu'il rejoindra le serveur.",
+                        "ru": "Роль, которую перестанет получать пользователь при присоединении на сервер."
+                    }
+                }
+            }
+        },
+        "list": {
+            "description": {
+                "en-GB": "Sends a list of auto-roles.",
+                "en-US": "Sends a list of auto-roles.",
+                "fr": "Envoyer la liste de auto-roles.",
+                "ru": "Отправляет список auto-roles."
+            },
+            "arguments": {}
+        }
+    }
+}

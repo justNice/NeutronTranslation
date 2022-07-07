@@ -1,0 +1,29 @@
+{
+    "settings": {
+        "permissions": [
+            {
+                "manage_roles": true
+            },
+            "Moderator"
+        ]
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Unmutes user.",
+            "en-US": "Unmutes user.",
+            "fr": "Demuter un utilisateur.",
+            "ru": "Размучивает пользователя."
+        },
+        "arguments": {
+            "user": {
+                "description": {
+                    "en-GB": "The user you wanna unmute.",
+                    "en-US": "The user you wanna unmute.",
+                    "fr": "L'utilisateur que vous voulez démuter.",
+                    "ru": "Пользователь, которого вы хотите размутить."
+                }
+            }
+        }
+    },
+    "subcommands": {}
+}

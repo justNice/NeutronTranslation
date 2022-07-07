@@ -1,0 +1,24 @@
+{
+    "settings": {
+        "permissions": []
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Sends channel information.",
+            "en-US": "Sends channel information.",
+            "fr": "envoyer les informations sur le canal.",
+            "ru": "Отправляет информацию о канале."
+        },
+        "arguments": {
+            "channel": {
+                "description": {
+                    "en-GB": "The channel whose information you wanna get. Leave it blank to get current's.",
+                    "en-US": "The channel whose information you wanna get. Leave it blank to get current's.",
+                    "fr": "Le canal auquel vous voulez avoir les informations. Rien mettre pour sélectionner celui-ci.",
+                    "ru": "Канал, чью информацию вы хотите получить. Оставьте поле пустым, чтобы получить текущую"
+                }
+            }
+        }
+    },
+    "subcommands": {}
+}

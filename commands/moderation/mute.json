@@ -1,0 +1,53 @@
+{
+    "settings": {
+        "permissions": [
+            {
+                "manage_roles": true
+            },
+            "Moderator"
+        ]
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Mutes user for a while.",
+            "en-US": "Mutes user for a while.",
+            "fr": "Muter un utilisateur pour un tempsp.",
+            "ru": "Мутит пользователя на время."
+        },
+        "arguments": {
+            "user": {
+                "description": {
+                    "en-GB": "The user you wanna mute.",
+                    "en-US": "The user you wanna mute.",
+                    "fr": "L'utilisateur que vous voulez muter.",
+                    "ru": "Пользователь, которого вы хотите замутить."
+                }
+            },
+            "time": {
+                "description": {
+                    "en-GB": "The duration of the mute.",
+                    "en-US": "The duration of the mute.",
+                    "fr": "La duration du mute.",
+                    "ru": "Длительность мута."
+                }
+            },
+            "time_unit": {
+                "description": {
+                    "en-GB": "The time_unit of the duration.",
+                    "en-US": "The time_unit of the duration.",
+                    "fr": "L'unité de temps.",
+                    "ru": "Временная единица мута."
+                }
+            },
+            "reason": {
+                "description": {
+                    "en-GB": "The reason of the mute.",
+                    "en-US": "The reason of the mute.",
+                    "fr": "La raison du mute.",
+                    "ru": "Причина мута."
+                }
+            }
+        }
+    },
+    "subcommands": {}
+}

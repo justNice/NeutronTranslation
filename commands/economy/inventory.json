@@ -1,0 +1,24 @@
+{
+    "settings": {
+        "permissions": []
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Shows user's inventory.",
+            "en-US": "Shows user's inventory.",
+            "fr": "Montrer l'inventaire de l'utilisateur.",
+            "ru": "Показывает инвентарь пользователя."
+        },
+        "arguments": {
+            "user": {
+                "description": {
+                    "en-GB": "The user whose inventory you wanna see.",
+                    "en-US": "The user whose inventory you wanna see.",
+                    "fr": "L'utilisateur dont vous voulez voir l'inventaire.",
+                    "ru": "Пользователь, чей инвентарь вы хотите посмотреть."
+                }
+            }
+        }
+    },
+    "subcommands": {}
+}

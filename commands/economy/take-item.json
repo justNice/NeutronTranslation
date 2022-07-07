@@ -1,0 +1,45 @@
+{
+    "settings": {
+        "permissions": [
+            {
+                "manage_guild": true
+            },
+            "Bot Commander"
+        ]
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Takes an item from an user.",
+            "en-US": "Takes an item from an user.",
+            "fr": "Prendre un objet d'un utilisateur.",
+            "ru": "Забирает предмет у пользователя."
+        },
+        "arguments": {
+            "user": {
+                "description": {
+                    "en-GB": "The user whose items you wanna remove.",
+                    "en-US": "The user whose items you wanna remove.",
+                    "fr": "L'utilisateur dont vous voulez retirer l'objet.",
+                    "ru": "Пользователь, чьи предметы вы хотите забрать."
+                }
+            },
+            "item": {
+                "description": {
+                    "en-GB": "The name of an item you wanna remove.",
+                    "en-US": "The name of an item you wanna remove.",
+                    "fr": "Le nom de l'objet que vous voulez retirer.",
+                    "ru": "Название предмета, который вы хотите забрать."
+                }
+            },
+            "quantity": {
+                "description": {
+                    "en-GB": "The quantity of an item you wanna remove.",
+                    "en-US": "The quantity of an item you wanna remove.",
+                    "fr": "La quantité d'objets que vous voulez retirer.",
+                    "ru": "Количество предмета, которое вы хотите забрать."
+                }
+            }
+        }
+    },
+    "subcommands": {}
+}

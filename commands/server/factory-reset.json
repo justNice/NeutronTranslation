@@ -1,0 +1,19 @@
+{
+    "settings": {
+        "permissions": [
+            {
+                "manage_guild": true
+            }
+        ]
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Resets ALL bot settings(button roles, shop and etc) irrevocably. It won't touch users.",
+            "en-US": "Resets ALL bot settings(button roles, shop and etc) irrevocably. It won't touch users.",
+            "fr": "Réinitialiser tous les paramètres du robot. Pas ceux des utilisateurs.",
+            "ru": "Сбрасывает ВСЕ настройки бота(button-roles, shop и т.д) безвозвратно. Это не коснётся пользователей."
+        },
+        "arguments": {}
+    },
+    "subcommands": {}
+}

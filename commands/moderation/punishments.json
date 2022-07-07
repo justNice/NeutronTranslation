@@ -1,0 +1,24 @@
+{
+    "settings": {
+        "permissions": []
+    },
+    "replies": {
+        "description": {
+            "en-GB": "Sends an user's moderation history.",
+            "en-US": "Sends an user's moderation history.",
+            "fr": "Envoyer l'historique de modération.",
+            "ru": "Отправляет историю модерации пользователя."
+        },
+        "arguments": {
+            "user": {
+                "description": {
+                    "en-GB": "The user whose punishments you wanna check.",
+                    "en-US": "The user whose punishments you wanna check.",
+                    "fr": "L'utilisateur dont vous voulez voir l'historique de modération.",
+                    "ru": "Пользователь, чьи нарушения вы хотите проверить."
+                }
+            }
+        }
+    },
+    "subcommands": {}
+}
