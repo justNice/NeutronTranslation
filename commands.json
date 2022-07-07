@@ -1269,9 +1269,9 @@
         },
         "replies": {
             "description": {
-                "en-GB": "Tic tac toe game.",
-                "en-US": "Tic tac toe game.",
-                "fr": "morpion.",
+                "en-GB": "Tic-Tac-Toe game.",
+                "en-US": "Tic-Tac-Toe game.",
+                "fr": "Morpion.",
                 "ru": "Игра Крестики Нолики"
             },
             "arguments": {
