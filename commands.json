@@ -1005,6 +1005,28 @@
         },
         "subcommands": {}
     },
+    "use-item": {
+        "permissions": [],
+        "replies": {
+            "description": {
+                "en-GB": "Uses an item from your inventory.",
+                "en-US": "Uses an item from your inventory.",
+                "fr": "Utilise un objet de votre inventaire.",
+                "ru": "Использует предмет из вашего инвентаря."
+            },
+            "arguments": {
+                "item": {
+                    "description": {
+                        "en-GB": "The item you wanna use.",
+                        "en-US": "The item you wanna use.",
+                        "fr": "L'objet que vous souhaitez utiliser.",
+                        "ru": "Предмет, который вы хотите использовать."
+                    }
+                }
+            }
+        },
+        "subcommands": {}
+    },
     "withdraw": {
         "permissions": [],
         "replies": {
